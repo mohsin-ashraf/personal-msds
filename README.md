@@ -5,7 +5,7 @@ This repository is dedicated to my personal MSDS semester 1. The courses in this
 ### Links that you should keep visiting
 |Title|Link|
 |-----|-----|
-|Keep an eye on my progress using this TIL file| Todayilearned|
+|Keep an eye on my progress using this TIL file| (Todayilearned)[https://github.com/mohsin-ashraf/personal-msds-1/blob/master/todayIlearned.md] |
 
 
 ### Metadata
