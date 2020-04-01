@@ -21,7 +21,7 @@ Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suita
 	- Features
 	- Labels
 	- Hypothesis function	
-	- (Cost function) [https://towardsdatascience.com/coding-deep-learning-for-beginners-linear-regression-part-2-cost-function-49545303d29f] 
+	- Cost function
 	- Contour plots for cost funtions.
 	- Gradient Descent.
 	- Learning Rate.
