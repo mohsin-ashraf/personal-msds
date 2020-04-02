@@ -3,6 +3,32 @@
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
 
+## Day 02 | April 02 2020 | Thursday
+Today I started digging deeper into the Gradient Descent and started learning maths behind it. I learned about Linear regression with single variable and multiple variable and how Gradient Descent minimizes the cost funciton with high dimensions. Also I refreshed my Linear Algebra concepts for the course.
+- Negative & Positive slopes.
+- At any minima the slope is 0.
+- Linear Algebra.
+	- Convex function only have one minima which is global.
+	- Matrix scaler operations, Addition and multiplication.
+	- Matrix Multiplicaton and its properties.
+	- Matrix Inverse and Transpose.
+- Linear Regression for Multiple Features.
+	- Gradient Descent for multiple features Linear Regression.
+	- Gradient Descent converge quickly when features are scaled.
+	- Effect of learning rate on convergence.
+	- Plotting Cost function to check if the Gradient Descent is working right or not.
+	- Polynomial Features (Feature Interactions).
+- Linear Regression for Multiple Features Normal Equation.
+	- Normal Equation for Linear Regression.
+	- Feature Scaling is not required.
+|Gradient Decent|Normal Equation|
+|-----|-----|
+|Need to choose Learning Rate **α**|No need to choose Learning Rate **α**|
+|Needs many iterations|Don't need to iterate|
+|Works well even when **n** (dataset size) is large|Need to perform intensive matrix operations|
+
+
+	
 ## Day 01 | April 01 2020 | Wednesday 
 - Started Machine Learning Course by Adrew Ng [Coursera].
 - Learned what is machine learning and types of Machine Learning.
@@ -21,7 +47,7 @@ Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suita
 	- Features
 	- Labels
 	- Hypothesis function	
-	- [Cost function] (https://towardsdatascience.com/coding-deep-learning-for-beginners-linear-regression-part-2-cost-function-49545303d29f) 
+	- Cost functions 
 	- Contour plots for cost funtions.
 	- Gradient Descent.
 	- Learning Rate.
