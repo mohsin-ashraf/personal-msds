@@ -47,7 +47,11 @@ Today I started digging deeper into the Gradient Descent and started learning ma
 	- Features
 	- Labels
 	- Hypothesis function	
+<<<<<<< HEAD
 	- Cost functions 
+=======
+	- Cost function
+>>>>>>> 6ce9c202f1ee2f94db119297529861e9407fdade
 	- Contour plots for cost funtions.
 	- Gradient Descent.
 	- Learning Rate.
