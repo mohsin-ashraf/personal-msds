@@ -4,7 +4,7 @@ Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suita
 
 
 ## Day 01 | April 01 2020 | Wednesday 
-- Starting Machine Learning Course by Adrew Ng [Coursera].
+- Started Machine Learning Course by Adrew Ng [Coursera].
 - Learned what is machine learning and types of Machine Learning.
 	- Supervised Learning.
 	- Unsupervised Learning.
