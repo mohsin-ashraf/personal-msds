@@ -19,8 +19,9 @@ Today I started digging deeper into the Gradient Descent and started learning ma
 	- Plotting Cost function to check if the Gradient Descent is working right or not.
 	- Polynomial Features (Feature Interactions).
 - Linear Regression for Multiple Features Normal Equation.
-	- Normal Equation for Linear Regression.
+	- Normal Equation for Linear Regression .
 	- Feature Scaling is not required.
+
 |Gradient Decent|Normal Equation|
 |-----|-----|
 |Need to choose Learning Rate **α**|No need to choose Learning Rate **α**|
