@@ -4,13 +4,13 @@ Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suita
 
 ## Day 04 | April 04 2020 | Saturday
 Today I started coding Gradient Descent and implimented a very simple Gradient Descent algorithm. I did exercises using Linear Regression and uploaded the code on codebase. I also worked on Weekend **#Hats&Techs** and did the boilerplate setup.
-	- Implimentation of Simplest Gradient Descent Algorithm.
-	- Predicting house prices using Linear Regression Single Feature.
-	- Predicting house prices using Linear Regression Single Feature Polynomial Regression.
-	- Predicting house prices using Linear Regression Multiple Features.
-	- Predicting house prices using Linear Regression Multiple Features Polynomial Regression.
-	- Predicting house price using Ridge Regression Multiple Features Polynomial Regression.
-	- Predicting house price using Lasso Regression Multiple Features Polynomial Regression.
+- Implimentation of Simplest Gradient Descent Algorithm.
+- Predicting house prices using Linear Regression Single Feature.
+- Predicting house prices using Linear Regression Single Feature Polynomial Regression.
+- Predicting house prices using Linear Regression Multiple Features.
+- Predicting house prices using Linear Regression Multiple Features Polynomial Regression.
+- Predicting house price using Ridge Regression Multiple Features Polynomial Regression.
+- Predicting house price using Lasso Regression Multiple Features Polynomial Regression.
 
 
 ## Day 03 | April 03 2020 | Friday
