@@ -2,8 +2,68 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Weekend Hacks&Techs | April 04-2020 / April 05-2020 | Saturday & Sunday
+For weekend Hats&Techs I started Pyspark for big data
+-PySpark is the Python API written in python to support Apache Spark. Apache Spark is a distributed framework that can handle Big Data analysis
+- Big Data is generally greater than or equal to 100GB in size
+- Single/Local Machine vs Distributed Systems
+
+|Local/Single Machine |Distributed Systems|
+|-----|-----|
+|A single machine like your personal computer|A distributed system is a system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages to one another|
+|Local machine will use computation resources of a single machine|A distributed system has access to the computational resouces across a number of machines connected through a network|
+|Very difficult or some times impossible to scale | Easily scalable by adding as many machines to the network as you want|
+|Not fault tolerant, if your machine goes down your process is lost|They also include fault tolerance, if one machine fails, the whole network can still go on|
+|Time consumption is very high| You can reduce the time consumption by adding more machines to the network|
+- Pyspark setup [instructions](https://github.com/mohsin-ashraf/personal-msds-1/wiki/Spark-setup-on-AWS-EC2)
+- Amazon EMR (Elastic Map Reduce)
+	- One master node
+	- Rest are core nodes
+	- Access/Security group settings with IPs
+- Spark DataFrames
+	- [Important links for Pyspark](https://spark.apache.org/docs/)
+		- Select the version and read the documentation
+	- To work with PySpark DataFrames we have to use SparkSession
+	- PySpark DataFrames
+		- DataFrame SQL queries filteration
+		- DataFrame basics
+		- DataFrame basic operations
+		- DataFrame Groupby and Aggregates
+		- DataFrame Missing Data
+		- Dates and Timestamp
+	- Final DataFrame Project
+		- Revised all the previous concepts and applied new techniques.
+- Spark MLlib
+	- Spark MLlib needs the data in a different format. You need to use **Vectors** and **VectorAssembler**
+	- PySpark Pipeline
+	- PySpark Linear Regression
+	- PySpark Logistic Regression
+	- PySpark Decision Trees
+	- PySpark Random Forests
+	- PySpark KMeans Clustering
+	- Recommender Systems
+		- Content Based
+			- A Content-based recommendation system tries to recommend items to users based on their profile. The user's profile revolves around that user's preferences and tastes
+		- Colaborative Filtering
+			- Recommends based on the knowledge of users' attitude to items, that is, it uses the **wisdom of the crowd** to recommend items 
+		- PySpark ALS Recommendation algorithm
+	- Natural Language Processing using PySpark
+		- CountVectorizer
+		- IDF
+		- Hash_TF
+		- Tokenizer & RegexTokenizer
+		- StringIndexer
+	- Pyspark Streaming
+
+
+## Day 05 | April 05 2020 | Sunday
+Today I continued with weekend **#Hacks&Techs**. I also learned about the model evaluation methods in detail.
+- [Regression Evaluation](https://stats.stackexchange.com/questions/89239/evaluating-a-regression-model/221311#221311?s=a757f4a4fb7a40c7a7f7d53527ac628a)
+- [Classification Evaluation](https://web.archive.org/web/20150826060649/http://webdocs.cs.ualberta.ca:80/~eisner/measures.html)
+- [AUC - ROC curve](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
+
 ## Day 04 | April 04 2020 | Saturday
-Today I started coding Gradient Descent and implimented a very simple Gradient Descent algorithm. I did exercises using Linear Regression and uploaded the code on codebase. I also worked on Weekend **#Hats&Techs** and did the boilerplate setup.
+Today I started coding Gradient Descent and implimented a very simple Gradient Descent algorithm. I did exercises using Linear Regression and uploaded the code on codebase. I also worked on Weekend **#Hacks&Techs** and did the boilerplate setup.
 - Implimentation of Simplest Gradient Descent Algorithm.
 - Predicting house prices using Linear Regression Single Feature.
 - Predicting house prices using Linear Regression Single Feature Polynomial Regression.
