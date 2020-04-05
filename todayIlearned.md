@@ -61,6 +61,7 @@ Today I continued with weekend **#Hacks&Techs**. I also learned about the model 
 - [Regression Evaluation](https://stats.stackexchange.com/questions/89239/evaluating-a-regression-model/221311#221311?s=a757f4a4fb7a40c7a7f7d53527ac628a)
 - [Classification Evaluation](https://web.archive.org/web/20150826060649/http://webdocs.cs.ualberta.ca:80/~eisner/measures.html)
 - [AUC - ROC curve](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
+	- [Another link](https://www.dataschool.io/roc-curves-and-auc-explained/)
 
 ## Day 04 | April 04 2020 | Saturday
 Today I started coding Gradient Descent and implimented a very simple Gradient Descent algorithm. I did exercises using Linear Regression and uploaded the code on codebase. I also worked on Weekend **#Hacks&Techs** and did the boilerplate setup.
