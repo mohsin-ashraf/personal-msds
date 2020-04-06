@@ -2,6 +2,17 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+
+## Day 06 | Aprit 06 2020 | Monday
+Today I started learning neural networks from scratch.
+- History of Neural Networks and anology with brain
+- Seeing through your [toung]!(https://www.youtube.com/watch?v=48evjcN73rw)
+- A single neuron is a linear classifier
+- Concepts of Layers (Input, hidden, output)
+- Forward propagation
+- Neural Networks for multi-class classification
+
+
 ## Weekend Hacks&Techs | April 04-2020 / April 05-2020 | Saturday & Sunday
 For weekend Hats&Techs I started Pyspark for big data
 -PySpark is the Python API written in python to support Apache Spark. Apache Spark is a distributed framework that can handle Big Data analysis
