@@ -2,11 +2,22 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 07 | April 07 2020 | Tuesday
+Today I continued with the neural netowrks 
+- Some Important links.
+	- [ANNs](https://brilliant.org/wiki/artificial-neural-network/)
+	- [Feedforward Networks](https://brilliant.org/wiki/feedforward-neural-networks/#formal-definition)
+	- [Backpropogation](https://brilliant.org/wiki/backpropagation/)
+	- [Neural Networks from scratch](http://neuralnetworksanddeeplearning.com) 
+	- [Partial Derivatives](https://brilliant.org/wiki/partial-derivatives/)
+-Multiclass classification neural networks output [N,1] dimensional vector where N is number of classes.
+- Cost function for neural networks (sigmoid)
+- Back propogation Handwritten Execution
 
 ## Day 06 | Aprit 06 2020 | Monday
 Today I started learning neural networks from scratch.
 - History of Neural Networks and anology with brain
-- Seeing through your [toung]!(https://www.youtube.com/watch?v=48evjcN73rw)
+- Seeing through your [tongue](https://www.youtube.com/watch?v=48evjcN73rw)!
 - A single neuron is a linear classifier
 - Concepts of Layers (Input, hidden, output)
 - Forward propagation
