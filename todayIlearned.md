@@ -10,6 +10,7 @@ Today I continued with the neural netowrks
 	- [Backpropogation](https://brilliant.org/wiki/backpropagation/)
 	- [Neural Networks from scratch](http://neuralnetworksanddeeplearning.com) 
 	- [Partial Derivatives](https://brilliant.org/wiki/partial-derivatives/)
+
 -Multiclass classification neural networks output [N,1] dimensional vector where N is number of classes.
 - Cost function for neural networks (sigmoid)
 - Back propogation Handwritten Execution
