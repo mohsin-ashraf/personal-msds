@@ -2,6 +2,13 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+
+## Day 08 | April 08 2020 | Wednesday
+Today I continues with neural networks from backpropogation to onword.
+- Summing the error over all the output units for the total error of the network.
+- Gradient Checking.
+- Finally Wrapped my head arround back-propogation
+
 ## Day 07 | April 07 2020 | Tuesday
 Today I continued with the neural netowrks 
 - Some Important links.
@@ -10,7 +17,6 @@ Today I continued with the neural netowrks
 	- [Backpropogation](https://brilliant.org/wiki/backpropagation/)
 	- [Neural Networks from scratch](http://neuralnetworksanddeeplearning.com) 
 	- [Partial Derivatives](https://brilliant.org/wiki/partial-derivatives/)
-
 - Multiclass classification neural networks output [N,1] dimensional vector where N is number of classes.
 - Cost function for neural networks (sigmoid)
 - Back propogation Handwritten Execution
