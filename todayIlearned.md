@@ -7,7 +7,7 @@ Today I started learning the common mistakes that people make while improving th
 - Machine Learning Diagnostic.
 - Lower dimensional hypothesis functions can be plotted to check them.
 - Splitting data in Training, Validation and test set.
-- R<sup>2<sup>, Plotting regression error function.
+- R<sup>2</sup> , Plotting regression error function.
 - Percision, Recall, F1-score, AUC-ROC and Accuracy.
 	- Precision Recall Trade off.
 		- Increasing or decreasing the confidence of the estimator for postive class.
