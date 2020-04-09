@@ -2,6 +2,38 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 09 | April 09 2020 | Tuesday
+Today I started learning the common mistakes that people make while improving the machine leraning model.
+- Machine Learning Diagnostic.
+- Lower dimensional hypothesis functions can be plotted to check them.
+- Splitting data in Training, Validation and test set.
+- R<sup>2<sup>, Plotting regression error function.
+- Percision, Recall, F1-score, AUC-ROC and Accuracy.
+	- Precision Recall Trade off.
+		- Increasing or decreasing the confidence of the estimator for postive class.
+- Bias & Variance analysis.
+	- Plotting training and validation error.
+	- Bias occurs when the training and validation errors are colse to each other but also are very high.
+	- Variance occurs when the training and validation error has a large difference and the training error is very low where as the validation error is very high.
+- Regularization overcomes overfitting problem by penalizing the coefficients of the features.
+	- Larger value of regularization can introduce higher bias.
+	- Smaller value of regularization can introduce higher variance.
+- Learning curves.
+	- Training error vs Cross validation error.
+- Fixes for models.
+	- Get more training examples (fixes high variance).
+	- Try smaller set of fetures (fixes high variance, but the model might loss some important information).
+	- Using lower polynomials (fixes the high variance).
+	- Using higher regularization term (fixed the high variance).
+	- **Using more data don't actually fixes the high bias problem**.
+	- Add more features (fixes the high bias problem).
+	- Using higher polynomials (fixes the high bias problem).
+	- Using smaller regularization term (fixes high bias problem).
+- Machine Learning System desgins.
+	- Take some manual look at what errors you model is making.
+	- Try to visualize the overall results of your machine learning model against the input.
+	- Numerical interpretation of your model, results and data.
+
 
 ## Day 08 | April 08 2020 | Wednesday
 Today I continues with neural networks from backpropogation to onword.
@@ -89,7 +121,7 @@ For weekend Hats&Techs I started Pyspark for big data
 Today I continued with weekend **#Hacks&Techs**. I also learned about the model evaluation methods in detail.
 - [Regression Evaluation](https://stats.stackexchange.com/questions/89239/evaluating-a-regression-model/221311#221311?s=a757f4a4fb7a40c7a7f7d53527ac628a)
 - [Classification Evaluation](https://web.archive.org/web/20150826060649/http://webdocs.cs.ualberta.ca:80/~eisner/measures.html)
-- [AUC - ROC curve](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
+- [AUC - ROC curve](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5) is used in binary classification.
 	- [Another link](https://www.dataschool.io/roc-curves-and-auc-explained/)
 
 ## Day 04 | April 04 2020 | Saturday
