@@ -2,7 +2,29 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
-## Day 09 | April 09 2020 | Tuesday
+## Day 10 | April 10 2020 | Friday
+Today I started learning the Support Vector Machines.
+- Cost function for support vector machines.
+	- Essentially the cost funciont adjusts itself such that the decision boundary gets wider using the margins.
+	- These margins grow from either size of the boundary equally.
+	- Intuitive understanding of why only support vectors contributes in the decision boundary of the support vectors.
+- Kernal functions.
+	- Calculation new features using the landmarks.
+	- Type of kernal functions.
+		- Polynomial kernal (x<sup>T</sup>.l + constant)<sup>degree</sup>.
+			- Used very rarely.
+		- Linear kernal.
+		- Gaussian kernal.
+		- String kernal (if the input data is text).
+		- chi-square kernal
+		- histogram kernal.
+		- Intersection kernal.
+- SVM in practice.
+	- When using Gaussian Kernal do perform feature scaling.
+	- Multi-class classification SVMs
+
+
+## Day 09 | April 09 2020 | Thursday
 Today I started learning the common mistakes that people make while improving the machine leraning model.
 - Machine Learning Diagnostic.
 - Lower dimensional hypothesis functions can be plotted to check them.
