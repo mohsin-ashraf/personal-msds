@@ -2,12 +2,41 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 11 | April 11 2020 | Saturday
+Today I started unsupervised machine learning and learned about the clustering and dimensionality reduction.
+- k-Means clustering.
+	- Cluster assignment (K = number of clusters)
+	- Cluster movement
+	- Objective function for K-Means clustering
+	- Local Optimal points in K-Means Clustering
+		- Try iterative run of K-Means algorithm using random initializations
+		- Caculate the distortion of the clusters with the points
+		- Pick the best point
+	- Chosing the number of clusters
+		- Visualize the data
+		- Elbow method
+- Dimentionality Reduction.
+	- Data Compression
+	- Data visualization
+	- Speed-up machine learning algorithms and reduces the required computation
+	- Converts highly corelated features (with almost linear relationship) to a single feature using projection.
+	- Projection of higher dimensional data to lower dimensional data (e.g. R<sup>n</sup> ==> R<sup>n-1</sup> ==> R<sup>n-2</sup> ...)
+- Principal Component Analysis (PCA).
+	- Calculates a lower dimensional space for higher dimentional data, such that the squared distances of the data points are small with the calculated lower dimentional space (reduces the projection error).
+	- Always perform feature scaling while using PCA (mostly mean normalization is used).
+	- Eigen vectors of Covariance vectors of the features of the data.
+	- Caculate the eigen vectors from covariance matrix and multiply it with the data keeping the K components (K = [1,2 ... n]).
+	- The more the varaince you are able to capture in lower dimensions the better (best case upto 99%).
+	- Reconstruction from the compressed data to original data.
+- Using PCA to reduce overfitting is a bad idea although might work okay but it would be better to use regularization to overcome the overfitting, Since PCA through aways some of the variance/information of the data.
+	
+
 ## Day 10 | April 10 2020 | Friday
 Today I started learning the Support Vector Machines.
 - Cost function for support vector machines.
 	- Essentially the cost funciont adjusts itself such that the decision boundary gets wider using the margins.
-	- These margins grow from either size of the boundary equally.
-	- Intuitive understanding of why only support vectors contributes in the decision boundary of the support vectors.
+	- These margins grow from either side of the boundary equally.
+	- Intuitive understanding of why only support vectors contributes in the decision boundary of the support vector machine.
 - Kernal functions.
 	- Calculation new features using the landmarks.
 	- Type of kernal functions.
