@@ -2,6 +2,49 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 12 | April 12 2020 | Sunday
+Today I started learning Anomaly detection problem and Recommendation systems and finally completed the course on Machine learning.
+- Anomaly detection.
+	- Normal Distribution parameterized with mean and std.
+	- Each feature contributes its Normal density function in order to detect anomalies.
+	- Don't use anomalies in your training data.
+	- Anomaly detection evaluation.
+		- Precision Recall
+		- F<sub>1</sub>-Score
+		- Confussion matrix
+	- Anomaly detection vs Supervised Learning.
+	- Feature selection in Anomaly detection.
+		- Check the distribution of your data if its Normal distribution then its an important feature. (use visualization of data)
+		- Try to transform features with non-normal distribution into normal distribution using some transformation function.
+		- Feature Engineering.
+		- Get more feature or generate new features
+	- Multivariate Gaussian (normal) Distribution.
+		- Using covariance matrix to change the distribution of the features.
+		- Changing the mean of the feature distribution.
+		- Can be computationally expensive.
+- Recommendation Systems.
+	- Motivation for recommendation systems.
+	- Feature vectors for data.
+	- Weight vector for each user for recommendation.
+	- Collaborative filtering.
+		- Learn features and their values for the data, from the user preferences.
+		- Iterative back and forth learning of weight vectors and feature vectors.
+		- Vectorized Implimentation of collaborative filtering.
+		- Mean normalization.
+- Large Scale Machine Learning.
+	- Always do a sanity check for large datasets by using a smaller dataset.
+		- See if it has a lot more variance to capture or it just has captured all the variance of the data and furhter data is not improving anymore. Then we might not need to train the data on full dataset.
+	- Use stochastic gradient descent for large datasets to improve from every single exmple.
+	- Shaffle the datasets for using stochastic nature optimizers
+	- Mini-batch gradient descent.
+	- Continous monitering of cost function if its decreasing or not.
+	- Online learning as the data stream is comming in your model starts to learn.
+	- Parallelsim and MapReduce.
+- Machine Learning Pipelines.
+	- Measuring accuracy of each step of the pipeline.
+	- Accuracy of the pipeline steps can affect the model accuracy.
+
+
 ## Day 11 | April 11 2020 | Saturday
 Today I started unsupervised machine learning and learned about the clustering and dimensionality reduction.
 - k-Means clustering.
@@ -13,8 +56,8 @@ Today I started unsupervised machine learning and learned about the clustering a
 		- Caculate the distortion of the clusters with the points
 		- Pick the best point
 	- Chosing the number of clusters
-		- Visualize the data
-		- Elbow method
+		- Visualize the data.
+		- Elbow method using the distortion
 - Dimentionality Reduction.
 	- Data Compression
 	- Data visualization
@@ -115,7 +158,7 @@ Today I started learning neural networks from scratch.
 
 
 ## Weekend Hacks&Techs | April 04-2020 / April 05-2020 | Saturday & Sunday
-For weekend Hats&Techs I started Pyspark for big data
+For weekend Hacks&Techs I started Pyspark for big data
 -PySpark is the Python API written in python to support Apache Spark. Apache Spark is a distributed framework that can handle Big Data analysis
 - Big Data is generally greater than or equal to 100GB in size
 - Single/Local Machine vs Distributed Systems
