@@ -2,8 +2,21 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 14 | April 14 2020 | Tuesday
+Today I started learning about the matrices, notations, terminologies and their operations.
+- Types of matrices.
+- Trace of the matrix.
+- Matrix multiplication.
+- Diagonal matrix multplications.
+- Consider square matrices **A**, **B** then **(AB)<sup>T</sup>** = **B<sup>T</sup>A<sup>T</sup>**.
+- Column weighted multiplication and row weighted multiplication.
+- Multiplicative Identity and Additive Identity.
+- Matrix **S** is symetric iff **S = (A+A<sup>T</sup>)/2 and A is NxN matrix**
+	- **S = S<sup>T</sup>**
+
+
 ## Day 13 | April 13 2020 | Monday
-Today I started the Linear Algebra course and learned the fundamental concepts about the linear algebra.
+Today I started the Linear Algebra course and learned the fundamental concepts about the linear algebra. I explored some basic vector operations and learned about different spaces.
 - Vocabulary of Linear Algebra and Nomenclature.
 	- Row vectors, Column Vectors, heads, tails and  Dimensions of the vectors.
 - Importance of Linear Algebra and Area of applications.
