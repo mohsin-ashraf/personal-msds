@@ -2,6 +2,26 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 15 | April 15 2020 | Wednesday
+Today I kept on learning the matrices and went on understanding about Matrix Rank, Matrix Spaces.
+- Rank is defined as dimentionality of information and is given as *r E N, s.t. 0 <= r <= min(m,n) where N = natural numbers, and m,n are the rows and columns of a matrix.*
+- Another way of defining the Rank is as *The rank of a matrix is the largest number of columns (or rows) that can form a linearly independent set.*
+	- Full row rank matrix
+	- Full column rank matrix
+	- Full matrix rank
+	- Reduced rank
+- rank(A) = rank(A<sup>T</sup>) = rank(A<sup>T</sup>A) = rank(AA<sup>T</sup>) *where rank is the function that gives the rank of a matrix*.
+- Shifting a matrix by a scaler.	
+	-*A* = **A + cI** where **A** is a square matrix, **c** is a constant and **I** is an identity matrix.
+- Matrix Spaces.
+	- A column space *C(A)* of a matrix **A** is the vector space that is spaned by all of the columns in the matrix doesn't matter if they are linearly independent or linearly dependent.
+	- *C(A) = {B<sub>1</sub>a<sub>1</sub> + ... + B<sub>n</sub>a<sub>n</sub>}*
+	- A row space *R(A) = C(A<sup>T</sup>)* of a matrix **A** is the vector space that is spaned by all the columns in the matrix doesn't matter if they are linearly independent or linearly dependent.
+	- Null Spaces *N(A)* of a matrix **A** is the set of all the vectors **{V}** such that **Av = O** and **V != O**.
+	- If a matrix has no null space it has linearly independent vectors and vice versa.
+
+
+
 ## Day 14 | April 14 2020 | Tuesday
 Today I started learning about the matrices, notations, terminologies and their operations.
 - Types of matrices.
