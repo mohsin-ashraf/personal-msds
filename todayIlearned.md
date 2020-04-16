@@ -2,6 +2,31 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 16 | April 16 2020 | Thursday
+Today I continued with matrix spaces and moved on to system of linear equations and matrix determinants.
+- Orthogonality, Null spaces and dot-product.
+- The four sub-spaces.
+- Systems of equations.
+	- **Ax = b**.
+	- Gaussian Elimination.
+		- Matrix Agumentation.
+		- Upper diagonal matrix
+		- Back-substitution
+	- Echelon form.
+		- povits of the matrix.
+		- Zeros below the pivot.
+	- Reduced row Echelon form.
+- Matrix Determinants.
+	- Only square matrices have a determinant.
+	- Determinant is a single number of the matrix.
+	- If the determinant of a matrix if **0** then it has linearly dependent columns.
+	- Determinant of 3X3 matrix.
+		- Agument the same matrix along the right/left verticle axis.
+		- From the first matrix take the diagonal elements which might include elements from the agumented matrix.
+		- From the second matrix take the off-diagonal elements which might include elements from the matrix which is being used to agument.
+	- Finding value of elements from the determinant of the matrix.
+
+
 ## Day 15 | April 15 2020 | Wednesday
 Today I kept on learning the matrices and went on understanding about Matrix Rank, Matrix Spaces.
 - Rank is defined as dimentionality of information and is given as *r E N, s.t. 0 <= r <= min(m,n) where N = natural numbers, and m,n are the rows and columns of a matrix.*
@@ -19,7 +44,6 @@ Today I kept on learning the matrices and went on understanding about Matrix Ran
 	- A row space *R(A) = C(A<sup>T</sup>)* of a matrix **A** is the vector space that is spaned by all the columns in the matrix doesn't matter if they are linearly independent or linearly dependent.
 	- Null Spaces *N(A)* of a matrix **A** is the set of all the vectors **{V}** such that **Av = O** and **V != O**.
 	- If a matrix has no null space it has linearly independent vectors and vice versa.
-
 
 
 ## Day 14 | April 14 2020 | Tuesday
