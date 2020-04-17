@@ -2,6 +2,47 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 17 | April 17 2020 | Friday
+Today I started learning about the matrix inverses, orthogonalities & Projections and Matrix least square for model fitting.
+- Matrix Inverse equation.
+	1. **Ax = b**
+	2. **A<sup>-1</sup>Ax = A<sup>-1</sup>b**
+	3. **Ix = A<sup>-1</sup>b**
+	4. **x = A<sup>-1</sup>b**
+	- Matrix inverse is side-dependent.
+- Matrix inverse using row reduction echelon form.
+	- Agumentation of Identity matrix with the original matrix **(A | I)**
+	- Converting the original matrix to identity matrix using linear operation which will broadcast along to Identity matrix as well.
+	- At the end if you get an identity matrix for the original matrix (on left) you have the inverse matrix of the original matrix (on the right size).
+	- If you get zeros in any row of the original matrix during this process then the solution does not exist.
+	- **(A|I) ==> (I|A<sup>-1</sup>)**
+- Projections and orthogonalization.
+	- Projection of point *b* on a vector **a** with some scaler *B* in R<sup>2</sup> is given as.
+		1. **a<sup>T</sup>** (b-**a**B) = 0
+		2. **a<sup>T</sup>** b - **a<sup>T</sup>a** B = 0
+		3. **a<sup>T</sup>a** B = **a<sup>T</sup>** b
+		4. B = **a<sup>T</sup>** b / **(a<sup>T</sup>a)**
+	- Projection of point *b* on a matrix **A** with some vector **x** in R<sup>N</sup> is given as.
+		1. **A<sup>T</sup>**(b - **Ax**) = **O**
+		2. **A<sup>T</sup>** b - **A<sup>T</sup>Ax** = **O**
+		3. **A<sup>T</sup>Ax** = **A<sup>T</sup>** b
+		4. **(A<sup>T</sup>A)<sup>-1</sup> (A<sup>T</sup>A)x = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</sup>** b
+		5. **x = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</sup>** b
+		6. **x = A<sup>-1</sup>A<sup>-T</sup>A<sup>T</sup>** b
+		7. **x = A<sup>-1</sup>** b
+	- Orthogonal & parallel vector components.
+	- Orthogonal Matrices.
+	- Gram-Schimdt and QR decomposition.
+- Least squares for model fittings.
+	- Fixed parameters.
+		- Parameters that you set for the model.
+	- Free parameters.
+		- Parameters that the model learns from the data.
+	- Finding coefficients of linear models.
+	- **Ax = y** ideally **y** needs to be in the column space of **A**. But typically its not.
+	- So we can write the above equation as **Ax + e = y** where **e** is the error vector.
+
+
 ## Day 16 | April 16 2020 | Thursday
 Today I continued with matrix spaces and moved on to system of linear equations and matrix determinants.
 - Orthogonality, Null spaces and dot-product.
