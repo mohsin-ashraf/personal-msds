@@ -2,6 +2,25 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 18 | April 18 2020 | Saturday
+Today I started learning the Eigen Decomposition, Singular Value Decomposition.
+- Eigen Decomposition.
+	- Defined for only squared matrices.
+	- Eigen Values & Eigen vectors.
+	- For *NxN* matrix there are *N* eigen values and *N* eigen vectors.
+	- If **Av =** *y* **v** given that **A** is a matrix, **v** is a vector and **y** is a scaler. Then **v** is an Eigen vector for matrix **A** and *y* is the eigen value.
+	- Eigen Decomposition process.
+		- Take the diagonal elements and subtract *Y* assuming *Y* to be an eigen value.
+		- Take determinent of the matrix.
+		- Find all the possible values of *Y* (which are going to be generally *N* given that matrix is *NxN*).
+		- In the initial step replace all the appearances of *Y* with one eigen value at a time and find a vector which is in the Null space of the matrix ignoring the trivial case.
+		- This vector is the eigen vector.
+	- Diagonalization.
+- Singular Value Decomposition.
+	- Conceptually similar to Eigen decomposition but it can work with rectangular matrices as well, by multiplying a matrix with its transpose. 
+	
+
+
 ## Day 17 | April 17 2020 | Friday
 Today I started learning about the matrix inverses, orthogonalities & Projections and Matrix least square for model fitting.
 - Matrix Inverse equation.
@@ -85,6 +104,7 @@ Today I kept on learning the matrices and went on understanding about Matrix Ran
 	- A row space *R(A) = C(A<sup>T</sup>)* of a matrix **A** is the vector space that is spaned by all the columns in the matrix doesn't matter if they are linearly independent or linearly dependent.
 	- Null Spaces *N(A)* of a matrix **A** is the set of all the vectors **{V}** such that **Av = O** and **V != O**.
 	- If a matrix has no null space it has linearly independent vectors and vice versa.
+	- **A<sup>T</sup>** has the same column space as **A**
 
 
 ## Day 14 | April 14 2020 | Tuesday
