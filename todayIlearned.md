@@ -2,13 +2,34 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 19 | April 19 2020 | Sunday
+Today I started the deep learning specialization, and started the first course.
+- Course overview and motivation for deeplearning.
+- Simple neural network example.
+- Supervised learning and types of neural networks.
+- Learning curve of deep neural network with respect to the amount of data (and comparision with other ML algorithms).
+- Feature vectors of data (images). 
+- Sigmoid function and bias.
+- Logistic regression cost function.
+	- *Cost(y, y<sup>'</sup> ) = - ( (y)log(y<sup>'</sup>) + (1-y)(log(1-y<sup>'</sup>)))*
+	- Interestingly one of the two term gets 0 depending upon the *y* values (0,1).
+- Gradient Descent.
+- Intuition of derivatives.
+	- Slope of the function with respect to some given variable *x*.
+- Computation Graphs.
+	- Computation Graph example.
+- Logistic Regression Gradient Descent.
+- Vectorization and explicite for loops.
+- Logistic Regression and Gradient Descent vectorization.	
+
+
 ## Day 18 | April 18 2020 | Saturday
 Today I started learning the Eigen Decomposition, Singular Value Decomposition.
 - Eigen Decomposition.
 	- Defined for only squared matrices.
 	- Eigen Values & Eigen vectors.
 	- For *NxN* matrix there are *N* eigen values and *N* eigen vectors.
-	- If **Av =** *y* **v** given that **A** is a matrix, **v** is a vector and **y** is a scaler. Then **v** is an Eigen vector for matrix **A** and *y* is the eigen value.
+	- If **Av =** *y***v** given that **A** is a matrix, **v** is a vector and **y** is a scaler. Then **v** is an Eigen vector for matrix **A** and *y* is the eigen value.
 	- Eigen Decomposition process.
 		- Take the diagonal elements and subtract *Y* assuming *Y* to be an eigen value.
 		- Take determinent of the matrix.
