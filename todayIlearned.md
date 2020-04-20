@@ -2,6 +2,20 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 20 | April 20 2020 | Monday
+Today I kept going with the deep learning specialization part one and learned following things.
+- Neural network overview.
+- 2 layers neural network.
+- Implimentation instructions for neural networks.
+- Explaination of vectorized implimentation.
+- Activation Functions.
+	- Sigmoid
+	- ReLU
+	- tanh
+	- leaky-ReLU
+	- softmax
+
+
 ## Day 19 | April 19 2020 | Sunday
 Today I started the deep learning specialization, and started the first course.
 - Course overview and motivation for deeplearning.
