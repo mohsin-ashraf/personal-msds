@@ -2,6 +2,20 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+
+## Day 21 | April 21 2020 | Tuesday
+Today I started derivatives of activation functions, backpropogation for neural networks.
+- Derivatives of the activation functions.
+- Gradient descent and Backpropogation implimentation details.
+- Random initialization.
+- Deep neural network.
+- Forward pass for deep neural networks.
+- Dimensions of matrices for deep neural networks.
+- Motivation why deep representation of neural networks.
+	- With shallow neural networks we would required to have exponential units.
+-
+
+
 ## Day 20 | April 20 2020 | Monday
 Today I kept going with the deep learning specialization part one and learned following things.
 - Neural network overview.
