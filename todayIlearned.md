@@ -13,7 +13,6 @@ Today I started derivatives of activation functions, backpropogation for neural 
 - Dimensions of matrices for deep neural networks.
 - Motivation why deep representation of neural networks.
 	- With shallow neural networks we would required to have exponential units.
--
 
 
 ## Day 20 | April 20 2020 | Monday
