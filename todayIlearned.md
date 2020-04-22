@@ -2,6 +2,33 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 22 | April 22 2020 | Wednesday
+Today I completed the deep learning specialization part 1 and went on for the second part. The progress for today is given below.
+- Building blocks of a neural network.
+- Forward and Backward propogation.
+- parameters and hyperparameters.
+	- hyperparameters.
+		- Learning rate.
+		- Activation Function.
+		- Number of layers.
+		- Number of layer to choose.
+		- Loss function.
+	- parameters.
+		- weights & biasis.
+- Finding suitable hyperparameters is an iterative process.
+- Train, Validation and Test set split.
+- Generally train = 60%, validation = 20% and test = 20%.
+- When using Big Data (for example 1,000,000 rows).
+	- You can take the validation/test set even smaller than 20% (for example 10,000).
+	- The idea for validation/test set is to find out if the model is performing better or not.
+	- Sometimes this split can be train = 99.5, validation = 0.25 and test = 0.25, when you have 10s of 100s of millions of samples.
+	- Destribution of the data matters alot in these splits.
+- Bias and Variance trade off.
+- Basic machine learning recipe. 
+	- Try to figure out problems in your model.
+	- Fix them one by one.
+	- Iterative process. 
+
 
 ## Day 21 | April 21 2020 | Tuesday
 Today I started derivatives of activation functions, backpropogation for neural networks.
