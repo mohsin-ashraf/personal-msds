@@ -2,6 +2,31 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 23 | April 23 2020 | Thursday
+Today I started learning more about hyperparamter optimization for neural networks.
+- Regularization.
+	- L1 & L2 regularization.
+- Regularization penalizes the weights to reduces the overfitting.
+- Dropout Regularization.
+	- Randomly shutdown some of the units in the network.
+	- For larger layers use high value for dropout (since larger layers have larger weight matrix).
+- Dropout implimentation.
+- Why does Dropout Work.
+	- Can't rely on any one feature, so have to spread out weights.
+- Other regularizations.
+	- Data augmentation.
+	- Early Stopping.
+- Input Normalization for neural networks.
+	- Bring all features to a common scale.
+- Vanishing/Exploding Gradient.
+	- The slope of the functions either get exponentially small or exponentially large.
+- Solution to Vanishing/Exploding Gradient.
+	- Random initialization.
+	- The larger the number of neurons the smaller the values of connected weights should be.
+	- Example random initialization: W<sup>[l]</sup> = np.random.randn(shape) * np.sqrt(1/n<sup>[l-1]</sup>)
+- Numerical Approximations of Gradients.
+
+
 ## Day 22 | April 22 2020 | Wednesday
 Today I completed the deep learning specialization part 1 and went on for the second part. The progress for today is given below.
 - Building blocks of a neural network.
