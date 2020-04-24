@@ -2,6 +2,34 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 24 | April 24 2020 | Friday
+Today I started with Gradient checking and moved on to learn new topics on hyperparameter optimization.
+- Gradient checking.
+	- Checking the value of original gradient against gradient generated after adding nudges to the weights. 
+	- Gradient checking does not work with Dropout.
+- Optimization Algorithms.
+	- Mini-batch Gradient Descent.
+	- Mini-batch Gradient Descent Implimentation.
+	- Batch vs Mini-batch Gradient Descent (curve for loss drop).
+		- For stochastic Gradient Descent keep the mini-batch 1.
+	-[Important Optimization of Gradient Descent](https://ruder.io/optimizing-gradient-descent/)
+	- Exponentially weighted averages.
+		- V<sub>t</sub> = *B*V<sub>t-1</sub> + (1-*B*)x<sub>t</sub> :. *B = 0.9*
+	- Exponentially weighted averages Implimentation. 
+	- Gradient Descent with momentum.
+		- Almost always faster than simple Gradient Descent.
+	- RMSprop.
+		- Controlls the learning rate in different directions according to the need.
+	- Adim (Adaptive moment estimation) Optimization Algorithm.
+		- Works fine for a large range of deep learning algorithms.
+		- Combine both momentum and RMSprops.
+	- Learning Rate Decay.
+		- Implimentation of Learning Rate Decay.
+		- *alpha = (1/(1+decay_rate * epoch_number)) * alpha*
+		- *a = small_constant<sup>epoch_number</sup>* small_constant < 1.
+
+
+
 ## Day 23 | April 23 2020 | Thursday
 Today I started learning more about hyperparamter optimization for neural networks.
 - Regularization.
