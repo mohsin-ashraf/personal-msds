@@ -12,7 +12,7 @@ Today I started with Gradient checking and moved on to learn new topics on hyper
 	- Mini-batch Gradient Descent Implimentation.
 	- Batch vs Mini-batch Gradient Descent (curve for loss drop).
 		- For stochastic Gradient Descent keep the mini-batch 1.
-	-[Important Optimization of Gradient Descent](https://ruder.io/optimizing-gradient-descent/)
+	- [Important Optimization of Gradient Descent](https://ruder.io/optimizing-gradient-descent/)
 	- Exponentially weighted averages.
 		- V<sub>t</sub> = *B*V<sub>t-1</sub> + (1-*B*)x<sub>t</sub> :. *B = 0.9*
 	- Exponentially weighted averages Implimentation. 
