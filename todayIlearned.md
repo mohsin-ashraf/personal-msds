@@ -2,6 +2,38 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 25 | April 25 2020 | Saturday
+Today I completed the deep learning specialization part 2.
+- Grid Search.
+- Random selection of parameters (Sampling randomly).
+- Exploitation of the parameter space where the results are better.
+- Using an appropriate scale for random selection.
+	- Example for tuning alpha
+		1. r = -x * np.random.rand()  where x < 0
+		2. alpha = 10<sup>r</sup>
+	- Example for tuning mumentom.
+		1. r = [-x,-y] where -x < -y < 0
+		2. beta = 1 - 10<sup>r</sup>
+- Expert knowledge via reading research papers and experimentations.
+- Babysitting approach for tunning hyperparameters.
+	- Keep monitering the learning curve (or loss curve) and change parameters accordingly.
+- Training multiple models in parallel with different hyperparameter optimization.
+- Batch normalization.
+	- Makes hyperparameter search problem much easier.
+	- Essentially it makes the neural networks much more robust against the choice of hyperparamters.
+	- Can work very well even in a very big range of paramters.
+	- Easily train deep neural networks.
+	- Batch normalization normalizes the data comming from the hidden layers and going into the hidden layers throughout the network.
+		- Normalizing the *Z<sup>[l]</sup>* where *Z<sup>[l]</sup> = W<sup>[l]</sup>y<sup>'[l-1]</sup>*
+		- For normalization you can choose any distribution that fits your problem.
+	- Applied with mini-batches.
+	- Understanding of why does batch normalization works.
+	- Make weights in the later layers (say 10<sup>10th</sup>) more robust to changes than earlier layers.
+	- If you learn a mapping of **X --> y** if distribution of **X** changes then the model might need to be re-trained.
+	- Batch Normalization actually reduces the problem of distribution among the layers.
+	- Batch Normalization at Test Time.
+
+
 ## Day 24 | April 24 2020 | Friday
 Today I started with Gradient checking and moved on to learn new topics on hyperparameter optimization.
 - Gradient checking.
@@ -27,7 +59,6 @@ Today I started with Gradient checking and moved on to learn new topics on hyper
 		- Implimentation of Learning Rate Decay.
 		- *alpha = (1/(1+decay_rate * epoch_number)) * alpha*
 		- *a = small_constant<sup>epoch_number</sup>* small_constant < 1.
-
 
 
 ## Day 23 | April 23 2020 | Thursday
@@ -601,6 +632,3 @@ Today I started digging deeper into the Gradient Descent and started learning ma
 	- Contour plots for cost funtions.
 	- Gradient Descent.
 	- Learning Rate.
-
-
-
