@@ -2,6 +2,30 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 26 | April 26 2020 | Sunday
+Today I started the deep learning specialization part 3 for structuring the machine learning projects. 
+- Orthogonalization in machine learning model improvement.
+	- Using specific set of hyperparamters to tune the model performance.
+- Single value model evalueation, F1 score and Accuracy.
+	- Precision and Recall.
+	- False Positives and False Negatives.
+	- True Positives and True Negatives.
+- Satisficing and Optimizing metrics.
+	- if you have N metrices optimize one as much as you can by keeping N-1 as satisficing as possible.
+- Train, Validation and Test.
+	- Keep the distribution same.
+	- Random shuffle of data.
+	- Size of the train, validation and test sets.
+- Evaluation of metrics also depends upon the user exceptance and company vision and needs.
+- You can even customize you error function for a perticular class to be predicted or not predicted by either multiplying with a constant.
+- Human level performance and even better.
+	- Avoidable bias.
+	- Understanding human level error/performance.
+		- Team of expert radiologists classifying images.
+	- Variance also needs to be reduced while achieving or surpassing human level performance.
+- Improving model performance.
+
+
 ## Day 25 | April 25 2020 | Saturday
 Today I completed the deep learning specialization part 2.
 - Grid Search.
@@ -32,6 +56,12 @@ Today I completed the deep learning specialization part 2.
 	- If you learn a mapping of **X --> y** if distribution of **X** changes then the model might need to be re-trained.
 	- Batch Normalization actually reduces the problem of distribution among the layers.
 	- Batch Normalization at Test Time.
+		- Use estimated exponentially weighted average (across mini-batches)
+- Softmax Regression.
+	- Choose the close with maximum probability for more than 2 class classification problem.
+	- Training with softmax classifier.
+- Local optima problems in high dimentional space.
+- Introduction to tensorflow deeplearning framework.
 
 
 ## Day 24 | April 24 2020 | Friday
@@ -102,6 +132,7 @@ Today I completed the deep learning specialization part 1 and went on for the se
 - Finding suitable hyperparameters is an iterative process.
 - Train, Validation and Test set split.
 - Generally train = 60%, validation = 20% and test = 20%.
+	- Distribution of the data across these folds matters alot.
 - When using Big Data (for example 1,000,000 rows).
 	- You can take the validation/test set even smaller than 20% (for example 10,000).
 	- The idea for validation/test set is to find out if the model is performing better or not.
