@@ -2,6 +2,23 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 27 | April 27 2020 | Monday
+Today I continued with the deep learning specialization part 3 and completed it.
+- Error Analysis.
+	- Manually examining the mistakes made by the model.
+	- Checking the labels of the miss-classified samples (small sample) manually to confirm if the labels are correct. 
+	- Preparing spread sheet for better analysis.
+- Cleaning up the incorrectly labelled data.
+	- Small number of hours of manually examination can help you figure out the real problem and can solve the problem much quickly than randomly changing paramters and algorithms.
+- Build your first machine learning system quickly and then iterate over it again and again to improve.
+- Training and testing on different distributions.	
+	- Randomly shuffle the distributions of the sets. 
+- Bias and Variance with miss-matched data.
+	- Train, train-dev set, dev set and test set.
+	- Data miss-match 
+	- Variance & bias problem.
+
+
 ## Day 26 | April 26 2020 | Sunday
 Today I started the deep learning specialization part 3 for structuring the machine learning projects. 
 - Orthogonalization in machine learning model improvement.
