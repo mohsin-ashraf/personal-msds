@@ -2,8 +2,29 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 28 | April 28 2020 | Tuesday
+Today I completed the deep learning specialization part 3.
+- Addressing the data missmatch.
+	- Try to understand the differences between the training and the dev, test set. 
+	- Artificial data synthesis.
+	- Problem of sythesis only the subset of the data. (for example creating only a few types of cars and not all type of car images)
+- Transfer learning.
+	- pre training and fine tunning.
+	- Transfer learning from A ---> B.
+		- Apply transfer learning when problem A and B have the same type of input X.
+		- You have lot more data for problem A than problem B.
+		- Low level features learnt from problem A can be very helpful for problem B.
+- Multitask learning.
+	- When you have same problem. (e.g reconizing sign boards, cars and roads)
+- End to End Deep learning.
+	- Avoiding pipelines for different steps and performing input to output map in a single neural network.
+		- You need to have a lot of data.
+- Whether to use end to end deep learning.
+	- Need a huge amount of data.
+
+
 ## Day 27 | April 27 2020 | Monday
-Today I continued with the deep learning specialization part 3 and completed it.
+Today I continued with the deep learning specialization part 3.
 - Error Analysis.
 	- Manually examining the mistakes made by the model.
 	- Checking the labels of the miss-classified samples (small sample) manually to confirm if the labels are correct. 
