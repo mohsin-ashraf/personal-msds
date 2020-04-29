@@ -2,6 +2,35 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 29 | April 29 2020 | Wednesday
+Today I started the deep learning specialization part 4 for convolutional neural networks, and learnt the following things.
+- Motvaion for computer vision.
+- Convolution operation & Edge detection.
+- If you convolve an image of N<sup>2</sup> with a filter of f<sup>2</sup> the output image size would be (N-f+1)<sup>2</sup>. It shrinks the output image.
+- Padding is used to overcome shrinking of the image to avoid image to become too small if your network is too deep. 
+	- p = (f-1)/2 where f is usually odd.
+- Strided convolution.
+	- Image size after strided convolution: floor((n+2p-f)/s + 1) where s = stride size.
+- Convolution on volumes (3D (RGB) images).
+	- Filter for this convolutional will also be 3D.
+	- Output will be a R<sup>2</sup> image.
+	- We can have as many filters as we want or need.
+- One layer of convolutional neural network.
+- Simple Convolutional network example from feature learning to predictions.
+	- Convolutional Layer (Feature learning)
+	- Flatten (fully connected) layers.
+	- Output layer.
+- Pooling layer.
+	- Max pooling, Min Pooling and Average pooling.
+	- Has hyperparameters to tune, but no learnable parameters (through gradient descent).
+- Example of convolutional neural network LeNet.
+- Why using Convolutional neural networks.
+	- Parameter sharing.
+		- A feature detector that's useful in one part of the image is probably useful in another part of the image.
+	- Sparsity of connections.
+		- In each layer, each output value depends only on a small number of inputs.
+
+
 ## Day 28 | April 28 2020 | Tuesday
 Today I completed the deep learning specialization part 3.
 - Addressing the data missmatch.
