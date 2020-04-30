@@ -2,6 +2,30 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 30 | April 30 2020 | Thursday
+Today I continued with deep learning specialization part 5 for convolutional neural networks,explored the architectures of the CNNs and learnt following topics.
+- Neural networks architectures.
+	- LeNet - 5 architecture.
+	- AlexNet architecture.
+	- VGG -16 architecture.
+- Very very deep neural networks are difficult to train due to the fact of exploding/vanishing of the gradient.
+- Residual Networks (ResNet).
+	- Skip connections.
+- Network in Network.
+	- One by One convolution.
+- Inception model.
+	- Using multiple filters with different sizes on a single convolutional layer along with pooling filters keeping the output dimension same for all the filters.
+	- Let the network decide which filter will be best to use.
+	- Requires very high computational cost.
+	- Bunch of inception modules are combined to create a single Inception model.
+- Open source implimentation.
+- [Transfer learning.](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a)
+- Data Augmentation.
+	- Artificially creating the data.
+	- Flipping, RGB variation and cropping.
+- State of computer vision. 
+
+
 ## Day 29 | April 29 2020 | Wednesday
 Today I started the deep learning specialization part 4 for convolutional neural networks, and learnt the following things.
 - Motvaion for computer vision.
