@@ -2,8 +2,28 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 31 | May 1 2020 | Friday
+Today I continued with deep learning specializatino part 4 for convolutional neural networks, and learnt about the object detection.
+- Object localization.
+	- Ouputing not just the object class, object presence but also its x,y and height and width.
+	- The label **y** for the images would also be containing this information (like if there is an object, object class and the boundary parameters).
+	- Loss function.
+- Landmark detection.
+	- Giving labels where you also specify the landmark points (x,y).
+		- You can have as many points for land mark as you want.
+- Object detectoin.
+	- Sliding windows detection.
+	- Train network on tightly cropped images of the object.
+	- Take a window and slide it over any input image (not tightly cropped) and pass those window cropped part of the image to the network to predict wether the object is present or not.
+	- Multiple slidings with different sizes of the window.
+	- Computational cost for this operation is high.
+- Convolutional implementation of sliding windows.
+- Intersection over union (IoU).
+	- Area of the overlaped boxes divided by the total area coverd by the boxes.
+
+
 ## Day 30 | April 30 2020 | Thursday
-Today I continued with deep learning specialization part 5 for convolutional neural networks,explored the architectures of the CNNs and learnt following topics.
+Today I continued with deep learning specialization part 4 for convolutional neural networks,explored the architectures of the CNNs and learnt following topics.
 - Neural networks architectures.
 	- LeNet - 5 architecture.
 	- AlexNet architecture.
