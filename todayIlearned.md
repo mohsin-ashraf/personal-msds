@@ -2,6 +2,32 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 32 | May 2 2020 | Saturday
+Today I completed the deep learning specialization part 4 for convolutional neural networks.
+- While object detection your model need to detect one object only once.
+- Non-max Suppression example.
+	- Use IOU (intersection over union) to check the neighboring windows if they are overlapping with the same window which has highest probability of detection or not, if that's the case it will keep the highest probability region and discard others.
+- Anchor boxes.
+	- Detecting multiple objects in the image.
+	- Using multiple anchor boxes to detect objects.
+- YOLO (you only look once) algorithm.
+	- Sliding windows for the image.
+	- Apply Anchor boxing.
+	- Apply Apply Non-max Suppression.
+- Region Proposals.
+	- Propose a regions where there might be an object to detect.
+	- Run classification only on that region.
+	- Its quite slow.
+- Face verification vs. face recognition.
+	- Verification.
+		- Input Image, name/ID.
+		- Output whether the input image is that of the claimed person.
+	- Recognition.
+		- Has a dataset of K persons.
+		- Get an input image.
+		- Output ID if the image is any of the K persons (or "Not recognized").
+
+
 ## Day 31 | May 1 2020 | Friday
 Today I continued with deep learning specializatino part 4 for convolutional neural networks, and learnt about the object detection.
 - Object localization.
@@ -14,7 +40,7 @@ Today I continued with deep learning specializatino part 4 for convolutional neu
 - Object detectoin.
 	- Sliding windows detection.
 	- Train network on tightly cropped images of the object.
-	- Take a window and slide it over any input image (not tightly cropped) and pass those window cropped part of the image to the network to predict wether the object is present or not.
+	- Take a window and slide it over any input image (not tightly cropped) and pass those window cropped part of the image to the network to predict whether the object is present or not.
 	- Multiple slidings with different sizes of the window.
 	- Computational cost for this operation is high.
 - Convolutional implementation of sliding windows.
