@@ -2,8 +2,52 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 33 | May 3 2020 | Sunday
+Finally I completed the deep learning specialization part 4 for convoutional neural networks.
+- One-shot learning problem.
+	- Recognize the person given one single image.
+	- Neural network learns the similarity function.
+		- f(image_1,image_2) = degree of difference between images.
+		- f(image_1,image_2) > threshold then the persons are same otherwise different.
+- Siamese network.
+	- Outputs the encoding of the input images.
+	- If the images are of the same person the difference between the encodings must be small.
+	- Apply the backpropogation to learn the function.
+- Triplet loss function.
+	- Looking at 3 images (examples).
+		- One image is sample, the other is positive example (image of the same person) and third one is a negative example (image of another person.)
+	- || f(A) - f(P) ||<sup>2</sup> + alpha <= ||f(A) - f(N) ||<sup>2</sup>
+	- Loss function.
+		- L(A,P,N) = max(||f(A)-f(P)||<sup>2</sup> - ||f(A) - f(N)||<sup>2</sup> + alpha , 0)
+	- Data set need pairing.
+		- Pair(A,P) similar and Pair(A,N) different.
+- Face verification.
+	- Use siamese networks for face verification with sigmoid unit in the last layer.
+	- Chi-squared similarity.
+- Neural style transfer.
+	- Generate a new image (G) from content image (C) and style image (S).
+	- Features learnt by the convolutional layers of the networks.
+	- Cost function for NST (neural style transfer).
+		- J(G) = alpha * J(C,G) + beta * J(S,G).
+		- Apply gradient descent on this cost function.
+	- Content cost function.
+		- Say you use hidden layer **l** to compute content cost.
+			- The earlier the layer **l** in the network more it will force to get the similar image to the content image and vice versa.
+		- Use pre-trained network (may be VGG).
+		- Let a<sup>[l][C]</sup> and a<sup>[l][G]</sup> be the activations of layer **l** for both images.
+		- If a<sup>[l][C]</sup> and a<sup>[l][G]</sup> are similar, both images have similar content.
+		- Take the element wise difference between the activations of the both images.
+		- Apply gradient descent to insentivise your algorithm to make the image as closer to the content as you want.
+	- Style cost function.
+		- Say you are using layer **l's** activation to measure "style".
+			- N<sup>h</sup>, N<sup>w</sup> and N<sup>c</sup> be height , widths and channels.
+		- How correlated the activations across different channels are.
+		- Style matrix computatoin.
+- Convolution in 1D, 2D and 3D.
+
+
 ## Day 32 | May 2 2020 | Saturday
-Today I completed the deep learning specialization part 4 for convolutional neural networks.
+Today I continued the deep learning specialization part 4 for convolutional neural networks.
 - While object detection your model need to detect one object only once.
 - Non-max Suppression example.
 	- Use IOU (intersection over union) to check the neighboring windows if they are overlapping with the same window which has highest probability of detection or not, if that's the case it will keep the highest probability region and discard others.
