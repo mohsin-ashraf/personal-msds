@@ -2,6 +2,10 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 34 | May 4 2020 | Monday
+Today I revisited the neural style transfer from deep learning specialization part 4 to clear up a couple of things which were left unclear last time.
+
+
 ## Day 33 | May 3 2020 | Sunday
 Finally I completed the deep learning specialization part 4 for convoutional neural networks.
 - One-shot learning problem.
