@@ -2,6 +2,10 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 35 | May 5 2020 | Tuesday
+Today I started working on the programming exercises and quizes of the deep learning specialization part 1 and completed exercises and quizes of first two modules.
+
+
 ## Day 34 | May 4 2020 | Monday
 Today I revisited the neural style transfer from deep learning specialization part 4 to clear up a couple of things which were left unclear last time.
 
