@@ -2,6 +2,10 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 37 | May 7 2020 | Thursday
+Today I completed the certification of deep learning specialization part two by completing all the required assignments and quizzes. The relevant certificate can be found [here](https://www.coursera.org/account/accomplishments/certificate/JKHPHS87S7M4)
+
+
 ## Day 36 | May 6 2020 | Wednesday
 Today I completed the certification of deep learning specialization part one by completing all the required assignments and quizzes. The relevant certificate can be found [here](https://www.coursera.org/account/accomplishments/certificate/WR79VC6AWN63)
 
