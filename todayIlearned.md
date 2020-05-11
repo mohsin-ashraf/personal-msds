@@ -2,6 +2,9 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 42 | May 12 2020 | Tuesday
+Today I continued with the deep learning specialization part five Sequence Models completed the first module and its quizzes and assignments.
+
 ## Day 41 | May 11 2020 | Monday
 Today I started deep learning specialization part five Sequence models and started its first module.
 - Motivation for sequence models.
@@ -24,7 +27,7 @@ Today I started deep learning specialization part five Sequence models and start
 - Language modeling and sequence generation.
 	- Large corpus of the language.
 	- Probablistic estimations of the words appearing given previous words.
-	- P(y<sup>< T ></sup>) = P (y<sup>< T ></sup> | y<sup>< 1 ></sup>,y<sup>< 2 ></sup>,...,y<sup>< T ></sup>)
+	- P(y<sup>< T ></sup>) = P (y<sup>< T ></sup> | y<sup>< 1 ></sup>,y<sup>< 2 ></sup>,...,y<sup>< T - 1 ></sup>)
 - Sampling novel sequences.
 - Vanishing/Exploding Gradients with RNNs.
 	- Long term dependencies in languages.
