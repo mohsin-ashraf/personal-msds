@@ -2,6 +2,35 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 41 | May 11 2020 | Monday
+Today I started deep learning specialization part five Sequence models and started its first module.
+- Motivation for sequence models.
+- Notations for sequence models.
+- Why not regular neural networks for sequence models.
+	- Inputs and Outputs can be of different lengths in different examples.
+	- Doesn't share features leaned across different positions of the text.
+- At each time stamp the Recurrent neural network passes its activations to the next time stamp.
+- Forward propogation is Recurrent Neural networks.
+	- a<sup>< t ></sup> = g(W<sub>aa</sub>a<sup>< t - 1></sup> + W<sub>ax</sub>X<sup> < t ></sup> + b<sub>a</sub>)
+	- y<sup>'< t ></sup> = g (W<sub>ya</sub>a<sup>< t ></sup> + b<sub>y</sub>)
+- Backpropogation through time.
+	- Logistic Loss function
+- Different types of RNNs.
+	- Many to many architecture (Sequence to Sequence)
+	- Many to one architecture (Sequence to one number)
+	- One to One architecture
+	- One to many architecture
+	- Encoder and Decoder
+- Language modeling and sequence generation.
+	- Large corpus of the language.
+	- Probablistic estimations of the words appearing given previous words.
+	- P(y<sup>< T ></sup>) = P (y<sup>< T ></sup> | y<sup>< 1 ></sup>,y<sup>< 2 ></sup>,...,y<sup>< T ></sup>)
+- Sampling novel sequences.
+- Vanishing/Exploding Gradients with RNNs.
+	- Long term dependencies in languages.
+	- Gradient clipping for gradient exploding.
+
+
 ## Day 40 | May 10 2020 | Sunday
 Today I completed the certification of deep learning specialization part four by completing all the required assignments and quizzes. The relevant certificate can be found [here](https://www.coursera.org/account/accomplishments/certificate/ZZUFQ8NFYQTY)
 
