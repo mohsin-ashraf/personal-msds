@@ -4,6 +4,15 @@ Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suita
 
 ## Day 42 | May 12 2020 | Tuesday
 Today I continued with the deep learning specialization part five Sequence Models completed the first module and its quizzes and assignments.
+- Gated Recurrent Unit.
+	- Helps in capturing the long term dependencies and overcomes the problem of vanishing gradient.
+	- Memory unit.
+- Long Short Term Memory (LSTM).	
+- Bi-directional RNN (BRNN).
+	- Has both forward and backward components.
+	- y<sup>'</sup> = g (W<sub>y</sub>[a<sup> --> < t ></sup>,a<sup> <-- < t ></sup>] + b<sub>y</sub>)
+- Deep RNNs.
+
 
 ## Day 41 | May 11 2020 | Monday
 Today I started deep learning specialization part five Sequence models and started its first module.
