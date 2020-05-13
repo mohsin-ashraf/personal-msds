@@ -2,6 +2,31 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 43 | May 14 2020 | Wednesday
+Today I started the second module of deep learning specialization part five Sequence models and learned the following topics.
+- Featurized representation of words: Words Embeddings.
+- Learning a feature vector against words, so that, these features can be used to know the semantic of a word.
+	- Similary objects will have very similar representation e.g *apple ~= orange*.
+- Visualization of word embeddings by reducing its dimensions (plotting it will clearly show the relationship between similar objects).
+- Using pre-trained words embeddings (on let say 1B-100B words) for transfer learning.
+- Continue finetuning the word embeddings with new data (if you have large dataset optional).
+- Word Embeddings are quite usefull for the tasks like summarization and Named entity recognition.
+- Word Embeddings are less usefull for the tasks like Language modeling and Machine translation.
+- Properties of word embeddings.
+	- Learn anology reasoning e.g man --> women as king --> *Queen*.
+	- Cosine Similarity ==> Sim(U,V) = (U<sup>T</sup>V)/(||U|| * ||V||).
+- Embedding matrix.
+	- Selecting a perticular word column from embedding matrix using one hot vector of that perticular word.
+- Learning word embeddings.
+	- Taking word embeddings of a sentence and feeding it to the networks (to maybe predict the next word).
+		- These embeddings can sometimes when stacked together can get thousands of dimensional vector, hence to reduce the dimensionality only a window of few previous words is used (let say 5-10 previous words).
+		- You can also take constant number of words from before and after the target word.
+- Skip gram model.
+	- Randomly taking an input word and then learning a maping to some target word.
+	- Iterating the above process for a few times with the same input word.
+
+
+
 ## Day 42 | May 12 2020 | Tuesday
 Today I continued with the deep learning specialization part five Sequence Models completed the first module and its quizzes and assignments.
 - Gated Recurrent Unit.
