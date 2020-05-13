@@ -2,7 +2,7 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
-## Day 43 | May 14 2020 | Wednesday
+## Day 43 | May 13 2020 | Wednesday
 Today I started the second module of deep learning specialization part five Sequence models and learned the following topics.
 - Featurized representation of words: Words Embeddings.
 - Learning a feature vector against words, so that, these features can be used to know the semantic of a word.
@@ -24,7 +24,6 @@ Today I started the second module of deep learning specialization part five Sequ
 - Skip gram model.
 	- Randomly taking an input word and then learning a maping to some target word.
 	- Iterating the above process for a few times with the same input word.
-
 
 
 ## Day 42 | May 12 2020 | Tuesday
