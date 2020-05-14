@@ -2,6 +2,21 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 44 | May 14 2020 | Thursday
+Today I completed the second module of the deep learning specialization part five Sequence models and learned the following topics.
+- Negative Sampling.
+	- Pair of positive and negative samples.
+	- Binary classifiers of vocab size (a layer of binary classifiers with vocab_size units), with **K** classifiers learning at a time.
+- Glove word vectors.
+	- X<sub>i,j</sub> = Number of times the word **i** (target) appears in the context of word **j** (context).
+	- minimize Sum<sup>m</sup><sub>i</sub>Sum<sup>m</sup><sub>j</sub> f(X<sub>i,j</sub>)(theta<sub>i</sub><sup>T</sup>e<sub>j</sub> + b<sub>i</sub>+b<sub>j</sub><sup>'</sup>  - log(X<sub>i,j</sub>))<sup>2</sup>.
+- Sentiment Classification using embeddings.
+- Debiasing the word embeddings.
+	- Identify bias direction.
+	- Neutralize: For every word that is not difinitional, project to get rid of bias.
+	- Equalize pairs.
+
+
 ## Day 43 | May 13 2020 | Wednesday
 Today I started the second module of deep learning specialization part five Sequence models and learned the following topics.
 - Featurized representation of words: Words Embeddings.
