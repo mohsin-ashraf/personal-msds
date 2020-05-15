@@ -2,6 +2,16 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 45 | May 15 2020 | Friday
+Today I completed the quizzes and assignments of second module and started the third and last module of this course and also of this series and learned the following topics.
+- Sequence to Sequence models.
+	- Image captioning.
+		- Use a pretrained network let say (AlexNet) and use the second last layer of the network as an input layer to the RNN model.
+- Picking the most likely sentence.
+	- Machine translation as building a conditional language model.
+		- P (y<sup>< 1 ></sup>, y<sup>< 2 ></sup>, ..., y<sup>< t ></sup> | x<sup>< 1 ></sup>, x<sup>< 2 ></sup>, ..., x<sup>< t ></sup> )
+
+
 ## Day 44 | May 14 2020 | Thursday
 Today I completed the second module of the deep learning specialization part five Sequence models and learned the following topics.
 - Negative Sampling.
@@ -13,7 +23,8 @@ Today I completed the second module of the deep learning specialization part fiv
 - Sentiment Classification using embeddings.
 - Debiasing the word embeddings.
 	- Identify bias direction.
-	- Neutralize: For every word that is not difinitional, project to get rid of bias.
+	- Neutralize: For every word that is not definitional, project to get rid of bias.
+		- Maybe first train a classifier to get the definitional words.
 	- Equalize pairs.
 
 
