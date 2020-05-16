@@ -2,6 +2,21 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 46 | May 16 2020 | Saturday
+Today I completed the final module of the final course of the deep learning specialization and completed the specialization.
+- Beam Search for language models.
+	-  Will pick N most likely words for a language translation given a word **x** of another language i.e P (y|x) where y = a,b,c and a,b,c are the most likely words that the beam search selected for language L1 given a word x from languge L2 (here N = 3).
+- Refinements to Beam search.
+	- Length normalization can help us get better results.
+		- 1/T<sub>y</sub><sup>alpha</sup> SUM <sub>t = 1</sub><sup>	Ty </sup>log P(y<sup>t</sup> | x, y<sup>< 1 ></sup>, y<sup>< 2 ></sup> , ... , y<sup>< t - 1 ></sup>)
+	- The larger the width of the Beam Search (selecting N to be greater) the more possibilities you are considering and hence the more better translations you can get. But the down side is that it requires computational power.
+- Error Analysis on Beam search.
+- Bleu Score.
+	- Measures how good the translation created by machine is, or how close the translation created by machine is to the translation done by human.
+- Attention Model Intuition.
+- Implimentation details of attention models.
+
+
 ## Day 45 | May 15 2020 | Friday
 Today I completed the quizzes and assignments of second module and started the third and last module of this course and also of this series and learned the following topics.
 - Sequence to Sequence models.
