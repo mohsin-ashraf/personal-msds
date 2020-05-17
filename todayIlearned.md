@@ -2,8 +2,16 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 47 | May 17 2020 | Sunday
+Today I completed the deep learning specialization assignments and quizzes and completed the deep learning specialization.
+- Speech recognition.
+	- Given an audio clip **x** the task is to find a transcript **y**.
+- Trigger word detection.
+- Assignments and quizzes completion.
+
+
 ## Day 46 | May 16 2020 | Saturday
-Today I completed the final module of the final course of the deep learning specialization and completed the specialization.
+Today I continued with the final module of the final course of the deep learning specialization and leaned the following topics.
 - Beam Search for language models.
 	-  Will pick N most likely words for a language translation given a word **x** of another language i.e P (y|x) where y = a,b,c and a,b,c are the most likely words that the beam search selected for language L1 given a word x from languge L2 (here N = 3).
 - Refinements to Beam search.
