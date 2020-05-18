@@ -2,6 +2,38 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 48 | May 18 2020 | Monday
+Today I started the [course](https://www.youtube.com/playlist?list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm) on NLP by Dan Jurafsky, Christopher Manning on YouTube and learned the following topics.
+- Motivation for NLP and course outline.
+- Challenges in NLP domains.
+- Basic Information extraction using Regex.
+	- [regexpal.com](https://www.regexpal.com/)
+	- In pattern matching fixing False Positives and False Negatives.
+	- Regular Expressions in practical NLP.
+- Word tokenization.
+	- Unix tools for text processing.
+	- **tr** for command line text processing.
+	- Complications and tokenizatoin.
+	- Rules for different languages are different.
+	- Max-match segmentation.
+		- Does't generally work for English.
+- Word Normalization and Stemming.
+	- Lemmatization. 
+	- Porter Stemmer.
+- Sentence Segmentation.
+	- Split sentences is a problem due to these words P.hD, 2.43 Dr. U.S.A etc.
+- Minimum Edit Distance.
+	- Minimum number of editing operations needed to transform one string to another.
+		- Insertion
+		- Deletion
+		- Substitution
+	- In Levenshtein distance the substitution cost is 2 (one for deletetion and one for updation).
+	- Solving minimum edit distance using Dynamic Programming.
+	- Backtrace for computing alignment.
+	- Weighted edit distance computation.
+	- Minimum Edit Distance in Computational Biology.
+
+
 ## Day 47 | May 17 2020 | Sunday
 Today I completed the deep learning specialization assignments and quizzes and completed the deep learning specialization.
 - Speech recognition.
