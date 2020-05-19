@@ -2,6 +2,24 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 49 | May 19 2020 | Tuesday
+Today I continued with the course and learned the following topics.
+- Probabilistic Language Modeling.
+	- Markov Assumption.
+	- P(the | its water is so transparent that) ~ P(the | that)
+	- P(the | its water is so transparent that) ~ P(the | transparent that)
+	- N-grams and long distance dependencies.
+- Estimating the N-gram probabilities.
+	- bi-gram probability ==> P(w<sub>i</sub> | w<sub>i - 1</sub>) = count(w<sub>i-1</sub>,w<sub>i</sub>)/count(w<sub>i-1</sub>)
+	- Converting it to log space to avoid underflow of tiny tiny probabilities when multiplying them togather.
+		- p<sub>1</sub> X p<sub>2</sub> X p<sub>3</sub> =   log(p<sub>1</sub>) + log(p<sub>2</sub>) + log(p<sub>3</sub>) 
+- Evaluation and Perplexity.
+	- Extrinsic Evaluation.
+- Generalization and Zeros.
+	- N-grams only works well for word prediction if the test corpus looks like the training corpus.
+	- Add-one smoothing or Laplace smoothing.
+
+
 ## Day 48 | May 18 2020 | Monday
 Today I started the [course](https://www.youtube.com/playlist?list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm) on NLP by Dan Jurafsky, Christopher Manning on YouTube and learned the following topics.
 - Motivation for NLP and course outline.
