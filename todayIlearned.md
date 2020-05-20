@@ -2,6 +2,38 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 50 | May 20 2020 | Wednesday
+Today I continued with the course of NLP and learned the following topics.
+- Backoff and Interpolation.
+	- Interpolation works better than Backoff.
+	- Simple Interpolation.
+	- Context conditional Interpolation.
+- Pruning to compute the probabilities for large scale n-grams (e.g Google N-gram corpus)
+	- Caching models.
+		- Recently used words are more likely to appear.
+			- works poorly on speech data.
+- Good turing Smoothing.
+	- Use the count of things we have seen once to help estimate the count of things we have never seen.
+	- N<sub>c</sub> = Frequency of frequency c (How many things occurs with frequency **c**)
+	- P<sup>* </sup><sub>GT</sub> (things with zero frequency) = N<sub>1</sub>/N  c<sup>* </sup> = (c+1)N<sub>c+1</sub>/N<sub>c</sub>
+- Kneser Ney smoothing.
+- Spelling correction.
+	- None words Errors
+		- graffe ---> giraffe where graffe is not a word of english.
+		- Use large dictionary to detect these kind of errors, any word not in the dictionary is an error, the larger the dictionary the better.
+	- Real-word Errors.
+		- Typographical Errors.
+			- three ---> there.
+		- Cognitive Errors.
+			- piece ---> peace
+	- Spelling correction and the noisy channel.
+		- Language models.
+	- State of the art systems.
+		- Auto-correction (fully confident)
+		- List of corrections.
+	- Finally multiple approaches can be combined to deal with the spelling correction including language modeling, pronunciations, Homology on the key board and many others.
+
+
 ## Day 49 | May 19 2020 | Tuesday
 Today I continued with the course and learned the following topics.
 - Probabilistic Language Modeling.
