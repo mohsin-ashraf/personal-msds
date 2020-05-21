@@ -2,6 +2,22 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 51 | May 21 2020 | Thursday
+Today I continued with the course of NLP and learned the following topics.
+- Text classificaion.
+- Naive Bayes Classifier one of the most important text classification algorithm.
+	- Formalizing the Naive Bayse Classifier.
+		- Assume the feature probabilities are independent given the class c.
+	- Naive Bayes Learning.
+	- Naive Bayes relationship to the Language Model.
+	- Multinomial Naive Bayes: A worked Example.
+- Precision Recall and F1 score.
+- Text classification evaluation.
+	- Macro-averaging.
+	- Micro-averaging.
+- Practical Issues in Text Classification.
+
+
 ## Day 50 | May 20 2020 | Wednesday
 Today I continued with the course of NLP and learned the following topics.
 - Backoff and Interpolation.
