@@ -2,6 +2,30 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 52 | May 22 2020 | Friday
+Today I continue witht the course and started learning about sentiment analysis.
+- Extracting sentiments of people about the product or service.
+	- Sentiments about the attributes of the products.
+	- Holder of attitude, Target of attitude, Type of attitude and Text containing the attitude.
+- Base line algorithm for sentiment classifiction.
+	- Preprocessing.
+		- Normalization of the text.
+	- Feature extraction.
+		- Negation.
+	- Applying the classifier.
+	- Occurrence of word tells a lot more than the frequency of its occurrence.
+		- For sentiment analysis we sometime clip the frequency of the word.
+- Sentiment Lexicons
+	- Polarity and Subjectivity.
+- Learning Lexicons
+	- Adjectives conjoined by "and" have same polarity.
+	- Adjectives conjoined by "but" do not have same polarity.
+	- Co-occurrence.
+	- Sinonyms of the words have the same polarity. 
+- Challenges in sentiment classification.
+	- Seemingly positive review but actually negative.
+
+
 ## Day 51 | May 21 2020 | Thursday
 Today I continued with the course of NLP and learned the following topics.
 - Text classificaion.
