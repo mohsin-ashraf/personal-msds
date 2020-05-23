@@ -2,6 +2,16 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 53 | May 23 2020 | Sutarday
+Today I started learning about the Discriminative Models.
+- [Generative vs Discriminative models](https://stackoverflow.com/questions/879432/what-is-the-difference-between-a-generative-and-a-discriminative-algorithm).
+-  Making features from text for Discriminative NLP models.
+	- Quality of the features are much more important than the model you choose.
+- Feature based Linear Classifiers.
+	- Learn linear function from the features to classes.
+- Maximizing the Likelihood.
+
+
 ## Day 52 | May 22 2020 | Friday
 Today I continue witht the course and started learning about sentiment analysis.
 - Extracting sentiments of people about the product or service.
