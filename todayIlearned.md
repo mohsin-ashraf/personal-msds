@@ -2,6 +2,30 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 54 | May 24 2020 | Sunday
+Today I continued with the nlp course and started learning about Information Extraction, Named Entity Recognition and Relation Extraction.
+- Named Entity Recognition (NER).
+	- Finding and classifying the attributes and their values in the text.
+		- For example, Person, Location, Organization etc.
+		- Usage of NER.
+	- Evaluation of Named Entity Recognition.
+		- Precision, Recall and F1 for statistical measures.
+		- The boundaries of collected entities are correct or not.
+	- Sequence Models for NER.
+		- IO Encoding of text data.
+		- IOB Encoding of the text data. 
+	- Maximum Entropy Sequence Models.
+- Relation Extraction.
+	- Extracting facts about the entities from the text. (e.g Stanford was founded in 1891 or maybe extracting family relationships husban & wife).
+		- Using Patterns to extract relationships.
+		- Using grammatical knowledge for relation extraction.
+		- Trigger words for relations (e.g parent, son and brother etc for family)
+	- Supervised Learning for Relation Extraction.
+		- First classify if the entities are related or not.
+		- If yes, then classify the relationship between the entites.
+	- Semi Supervised and Unsupervised Relation Extraction.
+
+
 ## Day 53 | May 23 2020 | Sutarday
 Today I started learning about the Discriminative Models.
 - [Generative vs Discriminative models](https://stackoverflow.com/questions/879432/what-is-the-difference-between-a-generative-and-a-discriminative-algorithm).
