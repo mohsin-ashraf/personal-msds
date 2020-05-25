@@ -2,6 +2,19 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 55 | May 25 2020 | Monday
+Today I continued with the nlp course and started learning about the POS tagging.
+- Intro to part of speech and POS tagging.
+	- Words often have more than one POS.
+	- Sequence Models for POS Tagging.
+		- Bi-directional Sequence models.
+- Statistical Natural Language Parsing.
+	- Constituency Parsing.
+	- The Exponential problem in parsing.
+- Context Free Grammar (CFG) and Probablistic Context Free Grammar (PCFG).
+- Chumsky Normal Form.
+
+
 ## Day 54 | May 24 2020 | Sunday
 Today I continued with the nlp course and started learning about Information Extraction, Named Entity Recognition and Relation Extraction.
 - Named Entity Recognition (NER).
