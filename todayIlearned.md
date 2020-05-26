@@ -29,7 +29,7 @@ Today I completed the course on nlp.
 	- Abstractive Summarization.
 		- Express the ideas in the source documents using different words.
 	- Evaluating Summaries ROUGE (Recall Oriented Understudy for Gisting Evaluation)
-
+ 
 
 ## Day 55 | May 25 2020 | Monday
 Today I continued with the nlp course and started learning about the POS tagging.
