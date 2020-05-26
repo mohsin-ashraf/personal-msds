@@ -2,6 +2,35 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 56 | May 26 2020 | Tuesday
+Today I completed the course on nlp.
+- Sense (or word sense).
+	- Discrete representation of an aspect of a word's meaning.
+		- Homographs (bank/bank, bat/bat)
+		- Homophones (write/right, Piece/peace)
+		- These phenomenon causes a number of problems in NLP tasks
+	- [WordNet](http://wordnetweb.princeton.edu/perl/webwn) and other Online Thesauri
+		- Word similarity and Thesaurus Methods.
+			- Path based similarity in the Thesaurus.
+		- Distributional Similarity.
+			- If **A** and **B** have almost identical environments we say that they are synonyms.
+			- Column vector similarity of sentences (TF count)
+			- Row vector similarity of words (TF along the row)
+			- Cosine Similarity
+- Question Answering.
+	- Answer types and query formulations.
+	- Ranking of condidate answers.
+	- Using Knowledge in QA.
+		- Databases of Facts, Relations and others.
+		- Validity of answers by their attributes (if a person is died in 1990s he won't be alive in 2000s etc.)
+- Introduction to Summarization.
+	- Extractive Summarization.
+		- Create summary from the phrases or sentences in the source document.
+	- Abstractive Summarization.
+		- Express the ideas in the source documents using different words.
+	- Evaluating Summaries ROUGE (Recall Oriented Understudy for Gisting Evaluation)
+
+
 ## Day 55 | May 25 2020 | Monday
 Today I continued with the nlp course and started learning about the POS tagging.
 - Intro to part of speech and POS tagging.
