@@ -2,6 +2,22 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 57 | May 27 2020 | Wednesday
+Today I started [Projects in Machine Learning](https://www.udemy.com/course/machine-learning-for-absolute-beginners/) course which is a hands on course for coding machine learning and deeplearning algorithms.
+- Supervised Learning.
+- Unsupervised Learning.
+- Re-enforcement Learning example project.
+	- [Open AI Docs](https://gym.openai.com/docs/#getting-started-with-gym)
+	- Observation, reward, done and info when call environment.step(some_action)
+	- PoleCart-v0 RL-Training.
+- Game board review prediction.
+	- [Dataset](https://github.com/ThaWeatherman/scrapers/tree/master/boardgamegeek)
+	- Data Exploration and Visualization.
+	- Data Filteration.
+	- LinearRegression and RandomForests
+- [Code Base]()
+
+
 ## Day 56 | May 26 2020 | Tuesday
 Today I completed the course on nlp.
 - Sense (or word sense).
