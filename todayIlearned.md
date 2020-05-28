@@ -2,6 +2,25 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+
+## Day 58 | May 28 2020 | Thursday
+Today I continued with the course and did a couple of other projects which are as follows.
+- Creadit Card Fraud Detection.
+	- Anomaly detection.
+	- [IsolationForest](https://towardsdatascience.com/outlier-detection-with-isolation-forest-3d190448d45e).
+		- Isolation Forest is an outlier detection technique that identifies anomalies instead of normal observations.
+	- [LocalOutliearFactor](https://towardsdatascience.com/local-outlier-factor-for-anomaly-detection-cc0c770d2ebe).
+		- Local Outlier Factor (LOF) is a score that tells how likely a certain data point is an outlier/anomaly.
+- NLTK Tagging, Chunking and Named Entity Recognition.
+	- NLTK pos_tag
+	- Keeping just a certain types of the entities using the pos.
+- Spam Filteration.
+	- Text preprocessing.
+	- Multiple Model Comparison.
+	- classification report
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-058)
+
+
 ## Day 57 | May 27 2020 | Wednesday
 Today I started [Projects in Machine Learning](https://www.udemy.com/course/machine-learning-for-absolute-beginners/) course which is a hands on course for coding machine learning and deeplearning algorithms.
 - Supervised Learning.
