@@ -2,6 +2,12 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
 
+## Day 59 | May 29 2020 | Friday
+Today I continue with the course and did the following projects.
+- Object recognition using CNNs.
+	- Striving for Simplicity: All Convolutional Net.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-059)
+
 
 ## Day 58 | May 28 2020 | Thursday
 Today I continued with the course and did a couple of other projects which are as follows.
