@@ -1,6 +1,28 @@
 # Today I Learned (TIL)
 
-Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone.
+Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](challenge) quiz for better future oppertunities.
+
+## Day 60 | May 30 2020 | Saturday
+Today I completed the course [Projects in Machine Learning](https://www.udemy.com/course/machine-learning-for-absolute-beginners/) and did the following projects.
+- Super Resolution CNNS.
+	- Taking in a low resolution image and converting it to a high resolution image.
+	- Matrices for image comparison.	
+		- PSNR (Peak signal to noise ratio)
+		- MSE (Mean Squared Error)
+		- SSIM (Structural Similarity)
+- KMeans clustering for image Analysis.
+	- Metrics.
+		- Intertia
+			- Measures the spread of the clusters.
+			- Increasing the number of clusters will decrease the intertial.
+		- Homogeneity score
+			- If all of the data points in a single cluster are the points of a single class.
+			- Increasing the number of clusters will increase the homogeneity.
+		- Accuracy.
+- Data Compression and Visualization using PCA.
+	- Elbow method.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-058)
+
 
 ## Day 59 | May 29 2020 | Friday
 Today I continue with the course and did the following projects.
