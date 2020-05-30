@@ -21,7 +21,7 @@ Today I completed the course [Projects in Machine Learning](https://www.udemy.co
 		- Accuracy.
 - Data Compression and Visualization using PCA.
 	- Elbow method.
-- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-058)
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-060)
 
 
 ## Day 59 | May 29 2020 | Friday
