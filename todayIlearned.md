@@ -23,7 +23,7 @@ Today I started the course on [Deep Learning with TensorFlow 2.0 [2020]](https:/
 		- A softmax activation function transforms a bunch of arbitrarily large or small numbers into a valid probability distribution.
 		- Sum of all the probabilities in all the units will be 1.
 	- Backpropagation.
--[Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-061)
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-061)
 
 
 ## Day 60 | May 30 2020 | Saturday
