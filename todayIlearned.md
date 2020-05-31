@@ -2,6 +2,30 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](challenge) quiz for better future oppertunities.
 
+## Day 61 | May 31 2020 | Sunday
+Today I started the course on [Deep Learning with TensorFlow 2.0 [2020]](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/) and started learning tensorflow 2.0.
+- Course Introduction.
+- Types of Machine Learning.
+	- Supervised, Unsupervised and Re-enforcement Learning.
+- A machine learning model.
+	- Visual animated example of a linear model.
+	- Multiple inputs and multiple outputs.
+		- If there are **N** inputs and **K** outputs then there would be **NxK** weight matrix and **K** biases.
+	- Cross Entropy Loss function.
+	- Optimization and Learning rate.
+	- A minimal example for NN model using numpy.
+- Introduction to Tensorflow.
+	- Support for CPU,GPU and TPU.
+	- A minimal example for NN model using tensorflow.
+- Introduction to Deep neural networks.
+	- None linearity and hidden layers.
+	- Softmax activation function.
+		- A softmax activation function transforms a bunch of arbitrarily large or small numbers into a valid probability distribution.
+		- Sum of all the probabilities in all the units will be 1.
+	- Backpropagation.
+-[Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-061)
+
+
 ## Day 60 | May 30 2020 | Saturday
 Today I completed the course [Projects in Machine Learning](https://www.udemy.com/course/machine-learning-for-absolute-beginners/) and did the following projects.
 - Super Resolution CNNS.
