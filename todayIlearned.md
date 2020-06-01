@@ -3,7 +3,7 @@
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
 ## Day 62 | June 1 2020 | Monday
-Today I completed the course on [Deep learing with TensorFlow 2.0 [2020]](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/) and learnt the following topics.
+Today I continued the course on [Deep learing with TensorFlow 2.0 [2020]](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/) and learnt the following topics.
 - Overfitting & Underfitting.
 	- Bias Variance tradeoff.
 	- Trian validation and test data.
