@@ -1,6 +1,31 @@
 # Today I Learned (TIL)
 
-Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](challenge) quiz for better future oppertunities.
+Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
+
+## Day 62 | June 1 2020 | Monday
+Today I completed the course on [Deep learing with TensorFlow 2.0 [2020]](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/) and learnt the following topics.
+- Overfitting & Underfitting.
+	- Bias Variance tradeoff.
+	- Trian validation and test data.
+	- KFold cross-validation
+	- Early stopping.
+- Initialization.
+	- Random initialization and activation functions.
+	- Xavier/Glorot Initialization.
+		- Uniform Xavier Initialization.
+		- Normal Xavier Initialization.
+- Optimization.
+	- Batch Gradient descent.
+		- Parallel batch training on multiple course.
+	- Local Minimum points.
+	- Momentum
+	- Adaptive Learning rate.
+		- AdaGrad
+		- RMSprop
+		- Adam
+- Preprocessing.
+	- Feature Scaling. 
+
 
 ## Day 61 | May 31 2020 | Sunday
 Today I started the course on [Deep Learning with TensorFlow 2.0 [2020]](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/) and started learning tensorflow 2.0.
