@@ -2,6 +2,22 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+## Day 63 | June 2 2020 | Tuesday
+Today I completed the course on [Deep learing with TensorFlow 2.0 [2020]](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/) and did its final project with MNIST example.
+- Data Preprocessing.
+- Data Shuffling.
+	- Buffer size.
+- Model Topology
+- Model training and tuning.
+- Business Case Example.
+	- Analysing the features and determining their importance.
+	- Balancing the dataset.
+	- Early stopping with Tensorflow.
+		- By default will stop the training once the validation loss increases.
+		- We can change this behaviour using **patience** which is an integer will allow model to continue for defined number of epochs after the loss has increased.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-063)
+
+
 ## Day 62 | June 1 2020 | Monday
 Today I continued the course on [Deep learing with TensorFlow 2.0 [2020]](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/) and learnt the following topics.
 - Overfitting & Underfitting.
