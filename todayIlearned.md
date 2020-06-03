@@ -2,6 +2,26 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+## Day 64 | June 3 2020 | Wednesday
+Today I started the course on [Tensorflow 2.0 Deep Learning and Artificial Intelligence](https://www.udemy.com/course/deep-learning-tensorflow-2/) for hands on practice and learning of the tensorflow API and some deeplearning stuff.
+- Introduction & motivation & Outline.
+- Google colab.
+- [Code](https://github.com/lazyprogrammer/machine_learning_examples/tree/master/tf2.0)
+- Introduction to Google Colab.
+	- google.colab files and file uploads.
+	- Mounting the gDrive with google colab.
+- Machine Learning and Neurons.
+	- Machine learning is nothing but just geometery problem.
+	- Classification and Regression.
+	- Basic Notations & Coding conventions of Tensorflow.
+	- Hyper parameter and model parameters.
+	- [Learning Rate scheduling](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/LearningRateScheduler)
+- Classification tensorflow code along example.
+- Linear Regression tensorflow code along example.
+- Saving and Loading
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-063)
+
+
 ## Day 63 | June 2 2020 | Tuesday
 Today I completed the course on [Deep learing with TensorFlow 2.0 [2020]](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/) and did its final project with MNIST example.
 - Data Preprocessing.
