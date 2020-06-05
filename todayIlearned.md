@@ -26,7 +26,7 @@ Today I continued with the Convolutional Networks and did some projects with CNN
 - Data Normalization.
 	- Batch normalization layers after convolutional layers.
 - Training Cifar10 using Data augmentation and Batch Normalization.
-- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-065)
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-066)
 
 
 ## Day 65 | June 4 2020 | Thursday
