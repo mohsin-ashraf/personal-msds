@@ -2,6 +2,33 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+## Day 66 | June 5 2020 | Friday
+Today I continued with the Convolutional Networks and did some projects with CNNs.
+- Convolutional Neural Networks.
+	- Feature learning & Classification.
+		- Feature learning in the earlier to later convolutional
+	- Pooling layers.
+	- Use Small features 3x3, 5x5 or 7x7
+	- Repeat: convolution --> pooling --> convolution --> pooling -- etc.
+	- Increase number of feature maps as you are going deeper in the network.
+	- Larger stride for convolution for skipping the same pixels around the pixels under consideration.
+	- Global max-pooling.
+	- [Caculating the number of parameters in Convolutional Neural Network](https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d)
+- Tensorflow Keras Functional and Sequentials APIs.
+	- Fashion MNIST project implimentation.
+	- Cifar10 project implimentation
+- Data Augmentation.
+	- Can be applied for certain types of data (image data) and not for others (tabular data)
+	- Shift pixels, 
+	- Move image up,down etc.
+	- Rotation of the image.
+	- Keras API ImageDataGenerator for Augmentation.
+- Data Normalization.
+	- Batch normalization layers after convolutional layers.
+- Training Cifar10 using Data augmentation and Batch Normalization.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-065)
+
+
 ## Day 65 | June 4 2020 | Thursday
 Today I continued with the course and started learning about the feed forward networks and convolutional neural networks.
 - Feed forward neural networks.
@@ -28,7 +55,7 @@ Today I continued with the course and started learning about the feed forward ne
 		- Convolution a pattern finder
 		- Weight sharing via convolutional filters.
 		- 3D Convolutional.
-[Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-065)
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-065)
 
 
 ## Day 64 | June 3 2020 | Wednesday
