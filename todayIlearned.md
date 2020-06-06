@@ -2,13 +2,32 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+## Day 67 | June 6 2020 | Saturday
+Today I started Recurrent Neural Network module studied the following topics.
+- Sequence Data.
+	- Introduction and motivation with time series analysis data.
+	- Shape of a Sequence is represented in 3D using N x T x D.
+		- N = # Samples
+		- D = # features
+		- T = # time steps in the sequence
+	- Padding for different sequence sizes.
+- Time Series Forecasting.
+	- Length of time we want to predict is called horizon.
+	- total_width - kernal_width + 1 = total number of windows of the kernal size.
+	- Auto regressive model.
+		- x<sup>^</sup><sub>t</sub> = w<sub>0</sub> + w<sub>1</sub>x<sub>t-1</sub> + w<sub>2</sub>x<sub>t-2</sub> + w<sub>3</sub>x<sub>t-3</sub>
+- Recurrent Neural Network.
+	- Hidden Features depend upon the input as well as the previous hidden state.
+	- Unrolled RNNs example.
+
+
 ## Day 66 | June 5 2020 | Friday
 Today I continued with the Convolutional Networks and did some projects with CNNs.
 - Convolutional Neural Networks.
 	- Feature learning & Classification.
 		- Feature learning in the earlier to later convolutional
 	- Pooling layers.
-	- Use Small features 3x3, 5x5 or 7x7
+	- Use Small feature maps 3x3, 5x5 or 7x7
 	- Repeat: convolution --> pooling --> convolution --> pooling -- etc.
 	- Increase number of feature maps as you are going deeper in the network.
 	- Larger stride for convolution for skipping the same pixels around the pixels under consideration.
