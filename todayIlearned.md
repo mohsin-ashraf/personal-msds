@@ -2,6 +2,26 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+## Day 68 | June 7 2020 | Sunday
+Today I continued with Recurrent Neural Network module and starting learning the following topics and did some practical projects.
+- Input/Output shapes for RNNs.
+	- Number of samples, sequence length, input features length, number of hidden units and output unit.
+- GRU (Gatted Recurrent Unit) and LSTM (Long short term memory).
+	- Vanishing Gradient problem in RNNs.
+	- GRU
+		- Solution of Vanishing gradients using GRU.
+		- Mathematical equation derivation.
+	- LSTM
+		- Solution of Vanishing gradients using LSTM.
+		- Mathematical equation derivation.
+- Challenging Sequence forecasting.
+	- Linear Regression.
+	- Simple RNN
+	- GRU
+	- LSTM
+- [Code base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-068)
+
+
 ## Day 67 | June 6 2020 | Saturday
 Today I started Recurrent Neural Network module studied the following topics.
 - Sequence Data.
@@ -34,8 +54,8 @@ Today I continued with the Convolutional Networks and did some projects with CNN
 	- Global max-pooling.
 	- [Caculating the number of parameters in Convolutional Neural Network](https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d)
 - Tensorflow Keras Functional and Sequentials APIs.
-	- Fashion MNIST project implimentation.
-	- Cifar10 project implimentation
+	- Fashion MNIST project implementation.
+	- Cifar10 project implementation
 - Data Augmentation.
 	- Can be applied for certain types of data (image data) and not for others (tabular data)
 	- Shift pixels, 
@@ -442,7 +462,7 @@ Today I continued with the final module of the final course of the deep learning
 - Bleu Score.
 	- Measures how good the translation created by machine is, or how close the translation created by machine is to the translation done by human.
 - Attention Model Intuition.
-- Implimentation details of attention models.
+- Implementation details of attention models.
 
 
 ## Day 45 | May 15 2020 | Friday
@@ -670,7 +690,7 @@ Today I continued with deep learning specialization part 4 for convolutional neu
 	- Let the network decide which filter will be best to use.
 	- Requires very high computational cost.
 	- Bunch of inception modules are combined to create a single Inception model.
-- Open source implimentation.
+- Open source implementation.
 - [Transfer learning.](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a)
 - Data Augmentation.
 	- Artificially creating the data.
@@ -814,13 +834,13 @@ Today I started with Gradient checking and moved on to learn new topics on hyper
 	- Gradient checking does not work with Dropout.
 - Optimization Algorithms.
 	- Mini-batch Gradient Descent.
-	- Mini-batch Gradient Descent Implimentation.
+	- Mini-batch Gradient Descent implementation.
 	- Batch vs Mini-batch Gradient Descent (curve for loss drop).
 		- For stochastic Gradient Descent keep the mini-batch 1.
 	- [Important Optimization of Gradient Descent](https://ruder.io/optimizing-gradient-descent/)
 	- Exponentially weighted averages.
 		- V<sub>t</sub> = *B*V<sub>t-1</sub> + (1-*B*)x<sub>t</sub> :. *B = 0.9*
-	- Exponentially weighted averages Implimentation. 
+	- Exponentially weighted averages implementation. 
 	- Gradient Descent with momentum.
 		- Almost always faster than simple Gradient Descent.
 	- RMSprop.
@@ -829,7 +849,7 @@ Today I started with Gradient checking and moved on to learn new topics on hyper
 		- Works fine for a large range of deep learning algorithms.
 		- Combine both momentum and RMSprops.
 	- Learning Rate Decay.
-		- Implimentation of Learning Rate Decay.
+		- implementation of Learning Rate Decay.
 		- *alpha = (1/(1+decay_rate * epoch_number)) * alpha*
 		- *a = small_constant<sup>epoch_number</sup>* small_constant < 1.
 
@@ -842,7 +862,7 @@ Today I started learning more about hyperparamter optimization for neural networ
 - Dropout Regularization.
 	- Randomly shutdown some of the units in the network.
 	- For larger layers use high value for dropout (since larger layers have larger weight matrix).
-- Dropout implimentation.
+- Dropout implementation.
 - Why does Dropout Work.
 	- Can't rely on any one feature, so have to spread out weights.
 - Other regularizations.
@@ -891,7 +911,7 @@ Today I completed the deep learning specialization part 1 and went on for the se
 ## Day 21 | April 21 2020 | Tuesday
 Today I started derivatives of activation functions, backpropogation for neural networks.
 - Derivatives of the activation functions.
-- Gradient descent and Backpropogation implimentation details.
+- Gradient descent and Backpropogation implementation details.
 - Random initialization.
 - Deep neural network.
 - Forward pass for deep neural networks.
@@ -904,8 +924,8 @@ Today I started derivatives of activation functions, backpropogation for neural 
 Today I kept going with the deep learning specialization part one and learned following things.
 - Neural network overview.
 - 2 layers neural network.
-- Implimentation instructions for neural networks.
-- Explaination of vectorized implimentation.
+- implementation instructions for neural networks.
+- Explaination of vectorized implementation.
 - Activation Functions.
 	- Sigmoid
 	- ReLU
@@ -1120,7 +1140,7 @@ Today I started learning Anomaly detection problem and Recommendation systems an
 	- Collaborative filtering.
 		- Learn features and their values for the data, from the user preferences.
 		- Iterative back and forth learning of weight vectors and feature vectors.
-		- Vectorized Implimentation of collaborative filtering.
+		- Vectorized implementation of collaborative filtering.
 		- Mean normalization.
 - Large Scale Machine Learning.
 	- Always do a sanity check for large datasets by using a smaller dataset.
@@ -1310,8 +1330,8 @@ Today I continued with weekend **#Hacks&Techs**. I also learned about the model 
 	- [Another link](https://www.dataschool.io/roc-curves-and-auc-explained/)
 
 ## Day 04 | April 04 2020 | Saturday
-Today I started coding Gradient Descent and implimented a very simple Gradient Descent algorithm. I did exercises using Linear Regression and uploaded the code on codebase. I also worked on Weekend **#Hacks&Techs** and did the boilerplate setup.
-- Implimentation of Simplest Gradient Descent Algorithm.
+Today I started coding Gradient Descent and implemented a very simple Gradient Descent algorithm. I did exercises using Linear Regression and uploaded the code on codebase. I also worked on Weekend **#Hacks&Techs** and did the boilerplate setup.
+- implementation of Simplest Gradient Descent Algorithm.
 - Predicting house prices using Linear Regression Single Feature.
 - Predicting house prices using Linear Regression Single Feature Polynomial Regression.
 - Predicting house prices using Linear Regression Multiple Features.
