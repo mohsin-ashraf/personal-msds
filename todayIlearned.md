@@ -2,6 +2,19 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+## Day 69 | June 8 2020 | Monday
+Today I continued with the Recurrent Neural module and spent most of my time doing projects.
+- LSTM and Long term dependencies.
+	- Using Simple RNN unit.
+	- Using LSTM.
+	- LSTM performs better than RNN for catpuring the long term dependencies.
+		- LSTMs also have a limit for upto a certain length of dependencies.
+		- Using GlobalMaxPool1D can improve the results for longer distence dependencies.
+- Image Classification using RNNs.
+	- Treating images as multi-dimensional time series data.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-069)
+
+
 ## Day 68 | June 7 2020 | Sunday
 Today I continued with Recurrent Neural Network module and starting learning the following topics and did some practical projects.
 - Input/Output shapes for RNNs.
