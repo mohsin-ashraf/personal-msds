@@ -2,6 +2,20 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+## Day 70 | June 9 2020 | Tuesday
+Today I did a project on stock price prediction using the Long short-term memory neurons.
+- Motivation for stock price predictions and Deep learning
+- Most common mistake people do while predicting the stock prices.
+- Correct way of predicting the stock returns.
+- Regression is generally harder problem than classification, especially binary classification.
+	- Rather than using the regression to predict the exact price of the stock we can actually use classification model to predict if the price will go up or down.
+- **0** accuracy is not a worse accuracy it means you can reverse the predictions to get 100% accuracy.
+- **50** accuracy is the worse accuracy.
+- Stock price prediction is a very harder problem, we can't even predict if the stock price is going up or down then how can we predict the exact stock price.
+- We need huge amount of data from with huge number of features, because there are a lot of things that affect the stock prices.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-070) 
+
+
 ## Day 69 | June 8 2020 | Monday
 Today I continued with the Recurrent Neural module and spent most of my time doing projects.
 - LSTM and Long term dependencies.
