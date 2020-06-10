@@ -2,6 +2,27 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+## Day 71 | June 10 2020 | Wednesday
+Today I started the next module of the course and worked on classifying the text using CNNs and LSTMs.
+- Embeddings.
+	- Dense vectorized representation of the input(image/text) where each element of the vector represent some feature of the input.
+- Tensorflow Embeddings.
+- Text preprocessing
+	- Tensorflow Tokenizer.
+	- Pad Sequences.
+		- Pre-truncation and Post-truncation.
+		- Its important to pad/truncate the sequence from beginning or ending since, RNNs have problems with learning long distance patterns you might wanna put the padding at the beginning. 
+		- Whether to do Post-padding or Pre-padding highly depends upon the problem under consideration.
+- Spam classification using LSTMs.
+- Convolutional Neural Networks for text classification.
+	- One dimentional Convolution.
+	- Embedding layer creates vectors of each word from the sentence.
+		- Each word is converted to a respective vector.
+		- These vectors are stacked together to create a matrix of M x N, on this matrix convolution is performed
+	- Spam classification using CNNs
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-071)
+
+
 ## Day 70 | June 9 2020 | Tuesday
 Today I did a project on stock price prediction using the Long short-term memory neurons.
 - Motivation for stock price predictions and Deep learning
@@ -9,10 +30,10 @@ Today I did a project on stock price prediction using the Long short-term memory
 - Correct way of predicting the stock returns.
 - Regression is generally harder problem than classification, especially binary classification.
 	- Rather than using the regression to predict the exact price of the stock we can actually use classification model to predict if the price will go up or down.
-- **0** accuracy is not a worse accuracy it means you can reverse the predictions to get 100% accuracy.
-- **50** accuracy is the worse accuracy.
+- **0%** accuracy is not a worse accuracy it means you can reverse the predictions to get 100% accuracy.
+- **50%** accuracy is the worse accuracy.
 - Stock price prediction is a very harder problem, we can't even predict if the stock price is going up or down then how can we predict the exact stock price.
-- We need huge amount of data from with huge number of features, because there are a lot of things that affect the stock prices.
+- We need huge amount of data with huge number of features, because there are a lot of things that affect the stock prices.
 - [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-070) 
 
 
