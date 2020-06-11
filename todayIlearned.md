@@ -2,6 +2,31 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+## Day 72 | June 11 2020 | Thursday
+Today I continued with the same course and started a new modules on Recommender System and Transfer learning.
+- Motivation for recommendation systems.
+- Sample for recommendation system is created by three items **user**, **item** and **rating**.
+- General process of recommendation.
+	- Embedding of the user and item under consideration.
+	- Feed both embeddings to a network in parallel.
+	- Predict the rating that user will give to the movie.
+- Implementation of movie recommendation project.
+- Transfer learning.
+	- Motivation for transfer learning.
+	- The basic idea behind the transfer learning is that features learned for one task might be usefull for another task.
+	- Freezing the layers of the pretrained neural networks in trainsfer learning will not update the weights for these layers. 
+- Some pretrained networks.
+	- VGG16 & VGG19
+	- ResNet50, ResNet101 and ResNet152
+	- Inception
+	- MobileNet 
+		- Lightweight.
+- Large datasets and dataset generators.
+	- Loading one batch at a time for training on large datasets.
+	- Data augmentation.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-072)
+
+
 ## Day 71 | June 10 2020 | Wednesday
 Today I started the next module of the course and worked on classifying the text using CNNs and LSTMs.
 - Embeddings.
