@@ -1,0 +1,2 @@
+python3 rl_trader.py -m train && python3 plot_rl_rewards.py -m train
+python3 rl_trader.py -m test && python3 plot_rl_rewards.py -m test

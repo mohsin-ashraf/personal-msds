@@ -2,7 +2,17 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
-## Day 73 | June 14 2020 | Friday
+## Day 74 | June 15 2020 | Monday
+Today I continued with the course and started the next module on Re-enforcement Learning and learnt trading using Re-enforcement learning algorithm.
+- In supervised and unsupervised machine learning, you train a model and make predictions after the prediction **You** decide whether to take some action or not.
+- The agent will take the action (buy, sell a stock or do-nothing) which it thinks will maximize the reward.
+- Enviroment for the RL agent is the stock market itself.
+- Reward is connected to whether you gianed the money or lost.
+- Replay Buffer implementation.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-074)
+
+
+## Day 73 | June 14 2020 | Sunday
 Today I continued the Transfer learning module of the course and moved on to the Generatrive Adverserial Networks.
 - Approaches for transfer learning.
 - Freezing the pretrained expensive layers during training
