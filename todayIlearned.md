@@ -2,6 +2,27 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+## Day 75 | June 16 2020 | Monday
+Today I continued with the previous parts of re-enforcement learning and learned the following topics.
+- Re-enforcement learning.
+	- Agent and Enviroment.
+		- Agent takes actions according to the state of the environment and the state of the environment is changed.
+	- State, action and reward.
+	- Epiodes in re-enforcement learning is complete exercise of an agent to gain the reward.
+- State.
+	- It can be discrete (like in tic-tac-toe) or continuous (like camera etc)
+- Policy.
+	- Policy is what the agent uses to determine what action to take given a state.
+- Markov Decision Processes.
+	- It is the main assumption we make in RL.
+	- It states.
+		- In general, we say the probility of state **t** depends only on the state at time **t - 1**.
+		- P (s<sub>t</sub> | s<sub>t-1</sub>, s<sub>t-2</sub>, ... , s<sub>0</sub>) = P(s<sub>t</sub> | s<sub>t - 1</sub>)
+		- The state can be a sequence of events/words/states.
+- Agent tries to maximize its long term reward.
+- Bellman Equation.
+
+
 ## Day 74 | June 15 2020 | Monday
 Today I continued with the course and started the next module on Re-enforcement Learning and learnt trading using Re-enforcement learning algorithm.
 - In supervised and unsupervised machine learning, you train a model and make predictions after the prediction **You** decide whether to take some action or not.
