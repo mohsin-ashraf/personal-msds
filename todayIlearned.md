@@ -2,6 +2,21 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+## Day 76 | June 17 2020 | Tuesday
+Today I started the next modules and learned about advanced tensorflow usage and Low level tensorflow and completed the course.
+- Serving tensorflow models.
+- Tensorflow Lite.
+	- For mobile and embedded applications.
+- Low level tensorflow.
+	- Constants, Variables and Gradient Tape.
+- Building your own custom model.
+- Indepth loss functions.
+	- Mean Squared Error.
+	- Binary Crossentropy.
+	- Categorical Crossentropy.
+- Indepth Gradient Descent.
+
+
 ## Day 75 | June 16 2020 | Monday
 Today I continued with the previous parts of re-enforcement learning and learned the following topics.
 - Re-enforcement learning.
