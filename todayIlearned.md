@@ -2,7 +2,36 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
-## Day 76 | June 17 2020 | Tuesday
+
+## Day 77 | June 20 2020 | Saturday
+Today I started the course on [Time series analysis](https://www.udemy.com/course/time-series-analysis-in-python/) learned the following topics.
+- Time series data.
+	- A sequence of information which attaches a time period to each value.
+		- Time period.
+		- Frequency.
+	- Patterns observed in time series are expected to presist in the future.
+	- Notations.
+- Missing values in time series data are more complex to handle since, the values of the next periods depends upon the values of the previous periods.
+- Splitting time series data for training and forecasting.
+- QQ plot (Quantile Quantile Plot).
+	- Y-axis represents the possible values of the variable in ordered.
+	- X-axis shows the means and each tick (point on axis) is 1 standard diviation away.
+	- A tool to analyse if your data is normally distributed or not.
+- Setting frequencies in our time series data.
+	- Setting up frequencies may introduce some missing values since there are going to be some periods which don't have any data.
+- Filling missing values.
+	- Front Filling.
+	- Back Filling.
+	- Mean Filling.
+- Splittng the time series data.
+- Auto correlation & Serial correlation.	
+	- It is the correlation of a signal with a delayed copy of itself as a function of delay
+- White Noise.
+	- In time series white noise means the time series doesn't have any pattern.
+[Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-077)
+
+
+## Day 76 | June 19 2020 | Friday
 Today I started the next modules and learned about advanced tensorflow usage and Low level tensorflow and completed the course.
 - Serving tensorflow models.
 - Tensorflow Lite.
