@@ -3,7 +3,7 @@
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
 
-## Day 80 | June 24 2020 | Tuesday
+## Day 80 | June 24 2020 | Wednesday
 Today I continued with the course and applied Moving averages statistical model to time series data.
 - Moving Averages (MA) Model.
 	- r<sub>t</sub> =c + theta<sub>t</sub>epslon<sub>t-1</sub> + epslon<sub>t</sub>
