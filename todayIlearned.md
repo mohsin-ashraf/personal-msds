@@ -17,7 +17,7 @@ Today I continued with the course and applied Moving averages statistical model 
 	- r<sub>t</sub> = c + phi(r<sub>t-1</sub>) + theta<sub>1</sub>epslon<sub>t-1</sub> + epslon<sub>t</sub>
 	- Higher order ARMA models.
 	- ARMA for Non-Stationary data.
-[Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-080)
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-080)
 
 
 ## Day 79 | June 23 2020 | Tuesday
