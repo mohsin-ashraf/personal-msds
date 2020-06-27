@@ -3,6 +3,77 @@
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
 
+## Day 80 | June 24 2020 | Tuesday
+Today I continued with the course and applied Moving averages statistical model to time series data.
+- Moving Averages (MA) Model.
+	- r<sub>t</sub> =c + theta<sub>t</sub>epslon<sub>t-1</sub> + epslon<sub>t</sub>
+		- r<sub>t</sub> represent the value in the current period.
+		- theta is a numeric coefficient.
+		- epslons are the residuals of current and past lags.
+	- The further back we go in time the more chances are we are overfitting.
+	- MA models are not better at predicting the non-stationary data.
+- Auto-Regressive-Moving Averages (ARMA).
+	- A combined model with auto-regressive and moving averages.
+	- r<sub>t</sub> = c + phi(r<sub>t-1</sub>) + theta<sub>1</sub>epslon<sub>t-1</sub> + epslon<sub>t</sub>
+	- Higher order ARMA models.
+	- ARMA for Non-Stationary data.
+[Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-080)
+
+
+## Day 79 | June 23 2020 | Tuesday
+Today I continued with the course and applied Auto-Regressive statistical model to time series data.
+- Picking the model.
+	- Usually start with a simpler model and then expand it.
+	- If expanding the model the new coefficients needs to be significantly different than zero.
+- Auto-Regressive (AR) Model.
+	- A linear model, where current period values are a sum of past outcomes multiplied by a numeric factor.
+	- X<sub>t</sub> = C + **Phi** X<sub>t-1</sub> epslon<sub>t</sub>
+		- **Phi** any numeric constant by which we multiply the lagged variable.
+			- Its value is always between -1 and 1.
+		- **epslon**<sub>t</sub> The difference between our prediction for period **t** and the correct value.
+		- You can have many lagged values for example t-2, t-3 and so on.
+	- Fitting AR Model with single lag.
+	- Fittign AR Model with multiple lags.
+	- Analysis and Evaluating the model using the summary.
+	- Log Likely hood ratio.
+	- AR Model to predict Amazon returns.
+- Normalizing the values. 
+	- Normalizing does not affect stationarity.
+	- Does not have any affect on model selection.
+		- Only the constant value is changed the rest of the coefficients are same as for the un-normalized data.
+- Analysing the Residuals of the model.
+	- Model results returns residuals using .resid attribute.
+	- If these residuals are stationary our model is a good fit.
+	- For the selected model to be better, its results residuals needs not to be significant in DickeyFuller test. If they are significant, that implies there exist an even better model to predict the data.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-079)
+
+
+## Day 78 | June 22 2020 | Monday
+Today I countinued the course and started the next modules.
+- White Noise.
+	- It has constant mean, constant standard diviation and no-autocorrelation.
+	- White noise cannot be predicted.
+- Random Walk.
+	- A Special type of time series, where values tend to presist over time and the differences between periods (residuals) are simply white noise.
+	- Lets say P is price and **r** is residual then.
+		- P<sub>t</sub> = P<sub>t - 1</sub> + **r**
+	- Random walks cannot be predicted accuratly.
+- Market Efficiency.
+	- Measures the level of difficulty in forecasting correct future values.
+- Time Series Stationarity.
+	- Time series stationarity implies taking consective samples of the data with the same size, should have identical covariance, regardless of the starting point.
+	- Dickey-Fuller test for testing the variable if its stationary or not.
+		- Null hypothesis assumes that the variable is non-stationary.
+- Seasonility.
+	- Trends will appear on a cyclical basis.
+		- Example would be temprature rise and fall in seasons.
+		- Trend
+		- Seasonality
+		- Residuals.
+- Auto-Correlation Plots.
+- Partial Auto-Correlation Plots.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-078)
+
 ## Day 77 | June 20 2020 | Saturday
 Today I started the course on [Time series analysis](https://www.udemy.com/course/time-series-analysis-in-python/) learned the following topics.
 - Time series data.
