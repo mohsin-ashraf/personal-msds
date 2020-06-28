@@ -3,6 +3,59 @@
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
 
+## Day 82 | June 26 2020 | Friday
+Today I started a new course on Feature Engineering for Machine Learning and completed its first couple of modules.
+- Feature engineering includes dealing with missing values, categorical variable encoding, variable transformation and creating new features.
+- Variables.
+	- Numerical variables.
+		- Discrete variables.
+		- Continous variables.
+	- Categorical variables.
+		- Nominal Categorical variables.
+			- Categorical variables for which order does not matter.
+		- Ordinal Categorical variables.
+			- Categorical variables where order matters.
+	- Datetime variables.
+	- Mixed Variables.
+		- Contains both the numberic and categorical variables.
+- Variable Characteristics.
+	- Missing data.
+		- Missing data completely at Random (MCAR). 
+			- There is no relationship between the missingness of the data and any values, observed or missing.
+		- Missing data at Random (MAT).	
+			- There is a systematic relationship between the propensity of missing values and the observed data, but not the missing data.
+		- Missing Data not at Random (MNAR).
+			- There is a mechanism or a reason why missing values are introduced in the dataset.
+		- To understand the mechanismby which missing data is introduced, we need to become familiar with the methods used for data collection. It also helps us defining how to best engineer the features.
+	- Cardinality of the variable.
+		- Possible values of a categorical values in a feature.
+		- High cardinality may cause over fitting and operationalisation problems.
+			- There can be an uneven split between training and testing, due to high cardinality and less examples for each label.
+	- Linear Model Assumptio.
+		- Independend variables are used to predict the depedend variable.
+		- There is a linear relationship between dependend variables and indipendent variables.
+		- The indipendent variables are not very highly correlated with each other.
+		- Homoscedasiticity.
+			- The error term for a given dependend variable is the same across all independent variables. 
+	- Outliers.
+		- A point in the data which is significantly different from the data.
+		- Sometimes the outliers are important to pay attention to, for example credit card fraud detection and some times these outliers are not importatn to pay attention to, for example an error introduced by measurement.
+	- Feature scalling and Feature magnitudes.
+		- Higher valued variables tends to have more affect on linear models, than others variables.
+- [Code base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-082)
+
+## Day 81 | June 25 2020 | Thursday
+Today I continue with the course and learned the ARIMA and its applications on time series data.
+- Auto-Regressive Integrated Moving Averages.
+	- Is a generalization of an autoregressive moving average model. Both of these models are fitted to time series data either to better.
+	- ARIMA(1,1,1) = <sub>delta</sub>P = c + phi<sub>1</sub>* <sub>delta</sub>P<sub>t-1</sub> + theta<sub>1</sub> epslon<sub>t-1</sub> + epslon<sub>t</sub>
+	- Simplistic ARIMA models.
+	- High Level Arima Models.
+	- Higher level of integration. 
+	- Seasonality in ARIMA ==> SARIMA
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-081)
+
+
 ## Day 80 | June 24 2020 | Wednesday
 Today I continued with the course and applied Moving averages statistical model to time series data.
 - Moving Averages (MA) Model.
