@@ -2,9 +2,71 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+## Day 86 | June 30 2020 | Tuesday
+
+
+
+## Day 85 | June 29 2020 | Monday
+
+
+
+## Day 84 | June 28 2020 | Sunday
+
+
+
+## Day 83 | June 27 2020 | Saturday
+Today I continued with the same course and started learning about the techniques of missing data imputation.
+- Imputation is the act of replacing the missing values with statistical estimates of the missing values.
+- **Remember to always use these imputers in train and test split fashion**
+- Techniques for Handling the missing values.
+	- CCA (complete case analysis).
+		- Drop any row which has any missing value.
+		- Very restrictive usage when no more than 5% of the data has the missing values.
+		- Can reduce the size of the dataset drasticly.
+- Mean-Medium Imputation.
+	- If the variable is normally distributed the mean is a good imputer.
+	- If the variable distribution is not normal then medium is a better imputer.
+	- Disadvantages of this approach.
+		- Distortion of the original variable distribution.
+		- Distortion of the covariance with the remaining variables of the dataset.
+		- Distortion of the original variance.
+		- Affects the inter quartile ranges.
+		- The higher percentage of the missing values, the higher the distortions.
+	- Restrictive usage when no more than 5% of teh data has missing values.
+- Arbitrary value Imputation.
+	- For numerical values can be any number not in the of the variable.
+	- For categorical values can be any label not present in the variable (Often "MISSING" is used).
+	- Disadvantages of this approach.
+		- Distortion in distribution, variance and covariance.
+		- If the arbitrary value is from the end of the distribution, it may mask or create ourliers.
+		- Affect the inter quartile ranges.
+		- The higher the percentage of missing values, the higher the distortions.
+- End of tail Imputation.
+	- Quite similar to arbitrary value imputation.
+- Frequent value Imputation.
+	- Replace the missing values by mode or most frequent value of the variable.
+	- Disadvantages are similar as in the previous techniques.
+	- Over-representation of the frequent value in the variable.
+	- The frequent value can distort the distribution and covariance of other variables with its perticular value.
+- Random Sample Imputation.
+	- Take random observation from all the available observations of the variable and replace it with missing value.
+	- **It preserves the variance of the variable.**
+	- Memory heavy since it has to store all the availabel observations.
+	- Due to randomness you cannot have same dataset with repeating this process hence the results of the model trained on one version of random sample imputation dataset might differ from the other.
+		- You can resolve this problem by setting the seed.
+		- You should also use the same seed in the deployment.
+		- You can set this seed by other available vairables (columns) interactions in the same rows (age * salary).
+- Missing Indicator.
+	- An additional binary variable which indicates whether the data was missing for an observation (1) or not (0).
+	- It expands the feature space of the dataset.
+	- Original variable still needs to be imputed.
+	- Many missing indicators may endup identical or very highly correlated.
+- Scikit-Learn available methods for imputation.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-083)
+
 
 ## Day 82 | June 26 2020 | Friday
-Today I started a new course on Feature Engineering for Machine Learning and completed its first couple of modules.
+Today I started a new course on [Feature Engineering for Machine Learning](https://www.udemy.com/course/feature-engineering-for-machine-learning/) and completed its first couple of modules.
 - Feature engineering includes dealing with missing values, categorical variable encoding, variable transformation and creating new features.
 - Variables.
 	- Numerical variables.
