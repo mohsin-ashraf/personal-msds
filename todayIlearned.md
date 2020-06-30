@@ -11,7 +11,25 @@ Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suita
 
 
 ## Day 84 | June 28 2020 | Sunday
-
+Today I continued with the same course and moved on to the next modules of the course categorical variable encoding.
+- Categorical variable encoding refers to converting the categorical values to some numerical representation.
+- One hot encoding.
+	- K values of a categorical feature can be converted to K -1 one hot encoding. 
+	- Using Training data for the one-hot-encoder to train and transform it for test data, you might wanna ignore not seen labels in training set when they appear in the test set.
+	- Feature space can expand.
+- One hot encoding of top categories.
+	- Performing one hot encoding, only considering the top n most frequent categories.
+	-  Feature space is can be limited.
+- Ordinal Encoding.
+	- Replacing the categorical values with integers from 1 to n.
+- Count/Frequency Encoding
+	- Categorical values are replaced by the number of times they appear or with the percentage with which they appear.
+	- This encoding can cause collisions since more than one categorical value can have same number of appearances.
+- Target guided Ordered Ordinary Encoding.
+	- Pretty much same as mean encoding done in FYP Movie Forecasting.
+- Probability ration encoding.
+- Weight of Evidence.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-084)
 
 
 ## Day 83 | June 27 2020 | Saturday
