@@ -2,12 +2,36 @@
 
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
+
+## Day 87 | July 1 2020 | Wednesday
+
+
 ## Day 86 | June 30 2020 | Tuesday
 
 
 
 ## Day 85 | June 29 2020 | Monday
-
+Today I continued with the course and moved on to learn more techniques of feature engineering explored the following topcis.
+- Variable transformations.
+	- Transformation of the variables such that they follow the desired distribution.
+	- Different Transformation functions available for transform the variables.
+	- Gaussian Transformation.
+	- Scikit-learn Transformers.
+		- FunctionTransformer takes in transformation function and variable to transform.
+- Discretisation.
+	- Transforming a continous variable to a categorical variable using bins.
+	- Equal Width Discretisation.
+		- Devides the variable values into N bins of the same width.
+		- width = (max(variable) - min(variable)) / N
+	- Equal frequency discretisation.
+		- Divides the values of the variable into N bins, such that each bin carries the same number of observations.
+	- K-Means Discretisation.
+		- This discretisation method consists in applying K-Means clustering to the continous variable.
+	- Discretisation and categorical encoding.
+		- Can convert the bins of the discretisation into categories and then apply categorical variable encoding.
+	- Discretisation using decision trees.
+	- Using Domain knowledge for descritisation.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-085)
 
 
 ## Day 84 | June 28 2020 | Sunday
