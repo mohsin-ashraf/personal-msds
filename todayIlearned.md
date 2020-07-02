@@ -3,11 +3,42 @@
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
 
+
+## Day 89 | July 2 2020 | Thursday
+
+
 ## Day 87 | July 1 2020 | Wednesday
+Today I completed the course on Feature Engineering for Machine Learning and wrapped up its last couple of sections and learned the following topics.
+- Engineering mixed variables.
+	- Creating saperate features for each type of the variable (labes and integers in the column can be expanded into multiple columsn containing only labels and integers).
+	- Splitting the Mixed variables into meaningful features. For example PK-177 can be splitted in PK for pakistan and 177 for flight number.
 
 
 ## Day 86 | June 30 2020 | Tuesday
-
+Today I started the next modules of the course on Outlier Handling and Feature Scaling. Following are the topics that I learned.
+- Outlier Handling.
+	- An outlier is a data point which is significantly different from the remaining data.
+	- Some of the possible ways to handle outliers.
+		- Removing outliers from the dataset.
+		- Treat outliers as missing data and perform missing data imputation.
+		- Capping top/bottom of the variable.
+		- Using Quantiles to remove values from above and below of that quantile.
+- Feature Scaling.
+	- Refers to the methods used to normalize the range of values of independent variables.
+	- Standardisation.
+		- Centers the variable at 0 and sets the variance to 1.
+		- formula = (X - mean(X)) / Std(X).
+		- Preserves the shape of the original distribution.
+	- Mean Normalization.
+		- Centers the variable at 0 and re-scales the variable to the value range.
+		- formula = (X - mean(X))/(max(X) - min(X))  :. range = max(X) - min(X)
+	- MinMax Scaling.
+	- Maximum Absolute Scaling.
+		- X / max(X)
+		- Scales the variable upto 1.
+	- Robust Scaling. 
+	- Scaling to unit norm.
+[Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-086) 
 
 
 ## Day 85 | June 29 2020 | Monday
