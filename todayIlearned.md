@@ -3,8 +3,45 @@
 Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
 
 
+## Day 100 | July 14 2020 | Tuesday
 
-## Day 89 | July 2 2020 | Thursday
+
+## Day 99 | July 13 2020 | Monday
+
+
+## Day 98 | July 12 2020 | Sunday
+
+
+## Day 97 | July 11 2020 | Saturday
+
+
+## Day 96 | July 10 2020 | Friday
+
+
+## Day 95 | July 9 2020 | Thursday
+
+
+## Day 94 | July 8 2020 | Wednesday
+
+
+## Day 93 | July 7 2020 | Tuesday
+
+
+## Day 92 | July 6 2020 | Monday
+
+
+## Day 91 | July 5 2020 | Sunday
+
+
+## Day 90 | July 4 2020 | Saturday
+
+
+## Day 89 | July 3 2020 | Friday
+
+
+## Day 88 | July 2 2020 | Thursday
+Today I start a new course on [Bash Scripting Linux and Programming complete Guide](https://www.udemy.com/course/bash-scripting-course/) and learned the following topics.
+
 
 
 ## Day 87 | July 1 2020 | Wednesday
@@ -12,6 +49,13 @@ Today I completed the course on Feature Engineering for Machine Learning and wra
 - Engineering mixed variables.
 	- Creating saperate features for each type of the variable (labes and integers in the column can be expanded into multiple columsn containing only labels and integers).
 	- Splitting the Mixed variables into meaningful features. For example PK-177 can be splitted in PK for pakistan and 177 for flight number.
+- Engineering Datetime variables.
+	- Simple Using Months days or Years.
+	- Time periods
+- Assembling a feature engineering pipeline.
+	- Building a complete end to end machine learning pipeline from loading data to saving model and benchmarking.
+	- Using different functions for different variables for cleaning and scaling.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-086)
 
 
 ## Day 86 | June 30 2020 | Tuesday
