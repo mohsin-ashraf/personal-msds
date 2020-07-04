@@ -37,12 +37,36 @@ Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suita
 
 
 ## Day 89 | July 3 2020 | Friday
+Tday I started learning about the t-distributed Stochastic Neighbor Embedding (t-SNE) another dimentionality reduction algorithm.
+
 
 
 ## Day 88 | July 2 2020 | Thursday
-Today I start a new course on [Bash Scripting Linux and Programming complete Guide](https://www.udemy.com/course/bash-scripting-course/) and learned the following topics.
-
-
+Today I start a new course on [Unsupervised Deep Learning in Python](https://www.udemy.com/course/unsupervised-deep-learning-in-python/) and learned the following topics.
+- Principle Component Analysis (PCA).
+	- An algorithm which reduces the dimentionality of the data by capturing the correlation between multiple variables and comimg with with lower number of variables to repsent the data.
+	- Finding vectors in the lower dimentions such that there is no correlation between the vectors of the PCA.
+	- Direction of the component vector is the same where the maximum variance of the data is.
+	- Select only those component vectors from PCA that explain the high variance, and leave the component vectors which just explains the noise.
+	- Large variations in the dataset are considered as signals and tiny tiny variations are considered as noise.
+- Derivation of PCA.
+	- Covariance Matrix for input features = Matrix<sub>x</sub> = 1/N (X- mean(X))<sup>T</sup>(X - mean(X))
+	- Eigen decomposition of covariance matrix.
+- PCA only ratates the data.
+	- Multiplying by the PCA matrix changes only its direction.
+- PCA Example.
+- PCA Implementation.
+- Application of PCA using Naive Bayes.
+	- PCA gives orthoganal vectors.
+	- Naive Bayes Classifier assumes the features are independent of each others.
+- Singular Value Decomposition (SVD).
+- Its a non-linear method hence its more expressive than PCA.
+- There is no transform function for t-SNE.
+	- t-SNE modifies the outputs of directly in order to minimize the cost function.
+- Gaussion Clouds and t-SNE.
+- t-SNE with MNIST
+- t-SNE with XOR
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-088)
 
 ## Day 87 | July 1 2020 | Wednesday
 Today I completed the course on Feature Engineering for Machine Learning and wrapped up its last couple of sections and learned the following topics.
@@ -55,7 +79,7 @@ Today I completed the course on Feature Engineering for Machine Learning and wra
 - Assembling a feature engineering pipeline.
 	- Building a complete end to end machine learning pipeline from loading data to saving model and benchmarking.
 	- Using different functions for different variables for cleaning and scaling.
-- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-086)
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-087)
 
 
 ## Day 86 | June 30 2020 | Tuesday
