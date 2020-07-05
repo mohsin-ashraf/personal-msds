@@ -31,14 +31,43 @@ Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suita
 
 
 ## Day 91 | July 5 2020 | Sunday
-
+Today I started a course on [Deep Learning: Advanced Computer Vision](https://www.udemy.com/course/advanced-computer-vision/) a practical course on computer vision applications.
+- Basic Overview of the Convolutional Neural Network.
+- Transfer learning.
+- Visual Geometery Group (VGG) Network.
+	- Arcitecture of VGG.
+	- You can change the last layer of the VGG depending upon the use case you are working for.
+	- Using VGG16 for dogs-cats classification.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-091)
 
 ## Day 90 | July 4 2020 | Saturday
-
+Today I completed the next course by learning about Vanishing Gradients and Dimentionality reduction applications in NLP.
+- Vanishing Gradients.
+	- When you have a deep neural network, gradients get smaller and smaller the further back you go.
+	- When you multiply a small number (< 1) with another samll number the number become even smaller.
+- Applications to NLP.
+	- Latent Semantic Analysis (LSA).
+- Applications to Recommender Systems.
+	- Data representation for Recommendation systems.
+		- One hot encoding for this type of problem is not suitable, since there are going to be millions of users and thousands of movies.
+	- Autoencoders compressed representation of the input data.
+		- Autoencoders learn vectors who represent the users and their features regarding the problem (in this case he likes action or horror movies etc).
+		- Autoencoders can also be used to recommend movies, as for reconstructing the data of the users. That is, all the movies which the user hasn't yet watched has not rating (consider no rating = noise), Our auto-encoder can reconstruct the rating for the movies that the user hasn't yet rated.
+		- You might need to write your own cost function. 
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-090).
 
 ## Day 89 | July 3 2020 | Friday
-Tday I started learning about the t-distributed Stochastic Neighbor Embedding (t-SNE) another dimentionality reduction algorithm.
-
+Today I started learning about the Auto-Encoders a deep learning method for dimentionality reduction and finding the latent spaces.
+- [Autoencoders](https://towardsdatascience.com/auto-encoder-what-is-it-and-what-is-it-used-for-part-1-3e5c6f017726)
+	- Is an unsupervised artificial neural network that learns how to efficiently compress and encode data then learns how to reconstruct the data back from the reduced encoded representation to a representation that is as close to the original input as possible.
+	- Components of the Autoencoders.
+		- Encoder.
+		- Bottleneck
+		- Decoder.
+		- Reconstruction loss.
+	- Cross entropy loss function.
+	- Autoencoders for data visualization.
+- [Code Base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-089).	
 
 
 ## Day 88 | July 2 2020 | Thursday
