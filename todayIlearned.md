@@ -36,7 +36,7 @@ Today I started the next module of the course and learned about the ResNet and I
 	- [ResNet Important article](https://towardsdatascience.com/building-a-resnet-in-keras-e8f1322a49ba)
 	- [ResNet Important article](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)
 		- [Implement ResNet by yourself](https://github.com/priya-dwivedi/Deep-Learning/tree/master/resnet_keras)
-
+- [Other computer vision models](https://machinelearningmastery.com/how-to-use-transfer-learning-when-developing-convolutional-neural-network-models/)
 
 ## Day 91 | July 5 2020 | Sunday
 Today I started a course on [Deep Learning: Advanced Computer Vision](https://www.udemy.com/course/advanced-computer-vision/) a practical course on computer vision applications.
