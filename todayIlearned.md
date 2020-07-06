@@ -1,6 +1,6 @@
 # Today I Learned (TIL)
 
-Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz for better future oppertunities.
+Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz and plan for [this](https://www.deeplearning.ai/) quiz for better future oppertunities.
 
 
 ## Day 100 | July 14 2020 | Tuesday
@@ -28,6 +28,14 @@ Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suita
 
 
 ## Day 92 | July 6 2020 | Monday
+Today I started the next module of the course and learned about the ResNet and Inception model.
+- ResNet Architecture.
+- Inception Model Architecture.
+- Handling different sizes of the input images.
+	- GlobalPooling layers.
+	- [ResNet Important article](https://towardsdatascience.com/building-a-resnet-in-keras-e8f1322a49ba)
+	- [ResNet Important article](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)
+		- [Implement ResNet by yourself](https://github.com/priya-dwivedi/Deep-Learning/tree/master/resnet_keras)
 
 
 ## Day 91 | July 5 2020 | Sunday
