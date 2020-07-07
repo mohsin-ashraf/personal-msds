@@ -22,9 +22,23 @@ Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suita
 
 
 ## Day 94 | July 8 2020 | Wednesday
+Today I started next module of the course and started learning about about Neural Style Transfer.
+- Transforming one image with the style of another image.
+
+
 
 
 ## Day 93 | July 7 2020 | Tuesday
+Today I started the next module of the course on object detection and learned about the Single Shot Multibox Detector(SSD) model.
+- Motivation for SSD.
+	- High speed and more accurate algorithm.
+- Object Localization.
+	- outputing the position of the object with prediction as well.
+- Sliding window concept.
+- Converting dense layers into convolution layers of size 1.
+- Using multiple boxes of different shapes.
+- [Pretrained Computer Vision Models](https://github.com/tensorflow/models/tree/master/research)
+- Intersection over union.
 
 
 ## Day 92 | July 6 2020 | Monday
