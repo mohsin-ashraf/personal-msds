@@ -38,7 +38,7 @@ Today I started the next module of the course on object detection and learned ab
 - Converting dense layers into convolution layers of size 1.
 - Using multiple boxes of different shapes.
 - [Pretrained Computer Vision Models](https://github.com/tensorflow/models/tree/master/research)
-- Intersection over union.
+- Intersection over union. 
 
 
 ## Day 92 | July 6 2020 | Monday
