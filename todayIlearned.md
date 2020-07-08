@@ -22,10 +22,14 @@ Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suita
 
 
 ## Day 94 | July 8 2020 | Wednesday
-Today I started next module of the course and started learning about about Neural Style Transfer.
+Today I started next module of the course and started learning about Neural Style Transfer and activation maps and Completed the course.
 - Transforming one image with the style of another image.
-
-
+- Theory behind Neural Style Transformation.
+	- Gram Matrix.
+		- A matrix product of input and its transpose devided by number of elements.
+			- G = 1/N * X.X<sup>T</sup>
+- Class Activation map.
+- [Code base](https://github.com/mohsin-ashraf/personal-msds-1/tree/master/codebase/day-094)
 
 
 ## Day 93 | July 7 2020 | Tuesday
