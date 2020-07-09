@@ -1,6 +1,8 @@
 # Today I Learned (TIL)
 
-Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz and plan for [this](https://www.deeplearning.ai/) quiz for better future oppertunities.
+Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suitable for everyone. 
+
+After completing this challenge I will complete [this](https://triplebyte.com/candidates/tracks) quiz and plan for [this](https://www.deeplearning.ai/) quiz to have a proof of my skills.
 
 
 ## Day 100 | July 14 2020 | Tuesday
@@ -19,7 +21,37 @@ Caution: This timeline is tailored for **@mohsin-ashraf** and might not be suita
 
 
 ## Day 95 | July 9 2020 | Thursday
-
+Today I started a new course on [Bash Scripting, Linux and Shell Programming Complete Guide](https://www.udemy.com/course/bash-scripting-course/), and started learning about the basics of bash scripting.
+- `ls` command and its flags.
+	- Using different flags for information purposes.
+	- Regex search using `ls`.
+- printing current working directory using `pwd`
+- Changing the working directory.
+	- `cd -` will move you to your last directory where you were working previously.
+- Checking the file type.
+	- `file path_to_file`
+- Looking for something in the dicrectory.
+	- `locate anything` will find all the files/folders in your system which have `anything` in their name.
+	- You can specify the subset directory to look at by using `grep` command. 
+- Check where these commands have been stored.
+	- `which ls` will show you where the `ls` command is written.
+- History of the previous commands.
+	- `history` 
+- Getting Help.
+	- `whatis command_name` will tell you what the command do replace `command_name` with some valid command for example `ls`.
+	- Printing manuals for the command.
+		- `man command_name` where `command_name` is any command for example `ls`
+- Making folders using terminal.
+	- `mkdir folder_name` will create the folder named `folder_name`.
+- Creating files using `touch`.
+	- `touch file_name.extension` file with name `file_name.extension` will be created.
+- Coping files using `cp`.
+- Moving files with `mv`.
+- Deleting files and folders using `rm` and `rm -r`
+- Changing file permissions.
+	- Premission codes for read (4), write (2) and execution (1)
+	- `chmod permission_code` will set the permission of the file according to the code.
+	- [Important link](https://www.guru99.com/file-permissions.html)
 
 ## Day 94 | July 8 2020 | Wednesday
 Today I started next module of the course and started learning about Neural Style Transfer and activation maps and Completed the course.
