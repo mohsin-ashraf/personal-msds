@@ -18,14 +18,41 @@ After completing this challenge I will complete [this](https://triplebyte.com/ca
 
 
 ## Day 96 | July 10 2020 | Friday
-
+Today I completed the course and started learning about the following topics.
+- `cat` command.
+	- `cat file.txt` print outs the content of the file.
+	- `cat >> file.txt` prompt for adding text into the file without overriding i.e append at the end of the file.
+	- `cat file1.txt file2.txt file3.txt` prints out the content of multiple files.
+- `more file_name.extension` prints the content of the file for few lines and stop for the prompt.
+- `less file_name.extension` is more advanced way of `more`.
+- The NANO text editor.
+- `sudo` commands for super user commands.
+- Switching to super using using `sudo su`
+- Killing process using `Ctrl + c`
+- `killall servicename` kills all the running instance of the `servicename`
+- Shortcuts commands in bast
+	- `Ctrl + d` for logging out of terminal or in other programs.
+	- `Ctrl + l` clears the terminal screen.
+	- `Ctrl +` zoom in & `Ctrl + -` zoom out.
+	- `Ctrl + x` followed by `backspace` removes the all the previous line in terminal.
+	- Other shortcuts using `Alt` Key.
+	- Cutting and pasting.
+- Writing Bash Scripts.
+	- `#!/bin/bash` at the top of the script.
+	- comments are done using `#`
+	- Variables and Arithmetic operations.
+	- String manipulation.
+	- while, until and for loop.
+	- User input.
+	- If else statements. 
+	- Crontab
 
 ## Day 95 | July 9 2020 | Thursday
 Today I started a new course on [Bash Scripting, Linux and Shell Programming Complete Guide](https://www.udemy.com/course/bash-scripting-course/), and started learning about the basics of bash scripting.
 - `ls` command and its flags.
 	- Using different flags for information purposes.
 	- Regex search using `ls`.
-- printing current working directory using `pwd`
+- Printing current working directory using `pwd`
 - Changing the working directory.
 	- `cd -` will move you to your last directory where you were working previously.
 - Checking the file type.
