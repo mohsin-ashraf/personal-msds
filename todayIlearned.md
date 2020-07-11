@@ -15,7 +15,35 @@ After completing this challenge I will complete [this](https://triplebyte.com/ca
 
 
 ## Day 97 | July 11 2020 | Saturday
-
+Today I started Amazon SageMaker Deep dive for learning about amazon sageMaker jupyter notebook plateform.
+- Amazon SageMaker is a fully maneged machine learning service.
+	- Notebook instances.
+		- These notebooks run on manged EC2 instances, which means you won't see any EC2 instance on EC2 console.
+		- EC2 instance family types.
+			- {t,m,c,p}
+			- The latest version of an EC2 instance is always gonna be the cost efficient.
+		- Adding EBS volumns (again its fully managed).
+	- You can add github repository aswell.
+- Built-in Machine learning algorithms with Amazon SageMaker.
+	- Classifiers and Regressors.
+	- Computer Vision.
+	- Natural Language Processing.
+	- Other machine learning algorithms.
+	- All these algorithms live in a Docker container.
+	- Available documentation for the algorithms and white papers.
+	- **Algorithms assume the first column of your dataset is the target column.**
+- Bringing your own custom model.
+	- Bringing your model using Scrip mode.
+		- Choose the AWS-managed container(Docker) of your choice (from available options.)
+		- Write your model as a bundle of files (or it could be a single file).
+		- Specify the entry point in the SageMaker Estimator.
+		- Include any extra libraries with **requirements.txt**
+		- Use the AWS webserver for inference.
+	- Docker Container.
+		- Bring your own docker container.
+		- Register it in ECR.
+	- AWS ML Marketplace.
+		- There 230+ solutions available on Machine Learning Market place.
 
 ## Day 96 | July 10 2020 | Friday
 Today I completed the course and started learning about the following topics.
