@@ -12,7 +12,30 @@ After completing this challenge I will complete [this](https://triplebyte.com/ca
 
 
 ## Day 98 | July 12 2020 | Sunday
-
+Today I continued with the Amazon SageMaker Deep dive and learned about Training the ML models, Deploying the model, hyperparameter optimization and scaling up the model training.
+- Train your ML models.
+	- Each sageMaker notebook instance has its own **ephemeral cluster** of a single EC2 instance or sometimes multiple.
+	- This EC2 instance is alive for the number of seconds your model is alive.
+	- This cluster is gonna comes down after it finishes its training.
+	- Configurations for Model training.
+	- Model evaluation.
+	- Hyperparameter optimization.
+	- Monitoring the model.
+	- Checking the logs.
+- Deploying the model.
+	- SageMaker endpoints.
+		- SageMaker automatecally creates the rest API.
+- Tuning Hyperparamters in SageMaker.
+	- Transfer learning.
+- Scaling up training using distributed training.
+	- Multiple nodes for training.
+		- Master image which is passing data and code to the rest of those nodes.
+	- Distributing training on single node using multiple vCPUs.
+	- Fully Replicated.
+		- Each node in the cluster will get the full replicated version of the original data.
+	- Sharded by S3 Key.	
+		- Splitting up the original dataset into multiple smaller datasets for training on multiple EC2 instances.
+	- Use the already available examples and modify it according your needs.
 
 ## Day 97 | July 11 2020 | Saturday
 Today I started Amazon SageMaker Deep dive for learning about amazon sageMaker jupyter notebook plateform.
@@ -31,7 +54,7 @@ Today I started Amazon SageMaker Deep dive for learning about amazon sageMaker j
 	- Other machine learning algorithms.
 	- All these algorithms live in a Docker container.
 	- Available documentation for the algorithms and white papers.
-	- **Algorithms assume the first column of your dataset is the target column.**
+	- **Algorithms assume the last column of your dataset is the target column.**
 - Bringing your own custom model.
 	- Bringing your model using Scrip mode.
 		- Choose the AWS-managed container(Docker) of your choice (from available options.)
