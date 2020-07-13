@@ -6,10 +6,22 @@ After completing this challenge I will complete [this](https://triplebyte.com/ca
 
 
 ## Day 100 | July 14 2020 | Tuesday
+Today I completed the Amazon SageMaker Deep dive video course by going through with all the available videos at this point of time.
+
 
 
 ## Day 99 | July 13 2020 | Monday
-
+Today I continued with the Amazon SageMeker Deep dive and learned about using deep learning frameworks of your choice, feature engineering and Schdule predictions.
+- Using deep learning framework of your choice.
+	- Using the script mode.
+		- Managed Docker container.
+		- Put the python script in the container.
+	- Using the sci-kit learn for training job.
+		- Set the `train_instance_type` to `local`.
+		- Don't use the `sagemaker_session`.
+- Co-relation analysis of dataset using feature engineering with Amazon SageMaker.
+- Batch Transforms.
+- For the best outcome use the pre-built examples on SageMaker and change it according to your requirements.
 
 ## Day 98 | July 12 2020 | Sunday
 Today I continued with the Amazon SageMaker Deep dive and learned about Training the ML models, Deploying the model, hyperparameter optimization and scaling up the model training.
