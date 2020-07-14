@@ -6,9 +6,19 @@ After completing this challenge I will complete [this](https://triplebyte.com/ca
 
 
 ## Day 100 | July 14 2020 | Tuesday
-Today I completed the Amazon SageMaker Deep dive video course by going through with all the available videos at this point of time.
-
-
+Today I completed the Amazon SageMaker Deep dive video course by going through with all the available videos at this point of time. And also completed my 100 days of MSDS!
+- Amazon SageMaker Ground Truth.
+	- Build highly accurate training data using machine learning and reduce the labeling costs by up to 70%.
+		- Amazon Machanical Turk workers.
+		- Private labeling workforce.
+		- Third-Party vendors.
+		- Built in data labeling tasks.
+			- Bounding boxes.
+			- Image Classification.
+			- Semantic Segmentation.
+			- Text Classification.
+			- Named Entity Recognition.
+		- Features of amazon labeling tasks.
 
 ## Day 99 | July 13 2020 | Monday
 Today I continued with the Amazon SageMeker Deep dive and learned about using deep learning frameworks of your choice, feature engineering and Schdule predictions.
